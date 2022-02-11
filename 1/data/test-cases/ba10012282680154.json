@@ -1,0 +1,179 @@
+{
+  "uid" : "ba10012282680154",
+  "name" : "Single element Screenshot",
+  "fullName" : "Single element Screenshot",
+  "historyId" : "Firefox tests/example.spec.ts Failing Tests Single element Screenshot",
+  "time" : {
+    "start" : 1644612492123,
+    "stop" : 1644612498189,
+    "duration" : 6066
+  },
+  "status" : "broken",
+  "statusMessage" : "Pending operations:\n  - expect.toContainText at tests/example.spec.ts:101:29\n\nexpect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+  "statusTrace" : "Pending operations:\n  - expect.toContainText at tests/example.spec.ts:101:29\n\nError: expect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n\n    at /home/runner/work/playwright-allure/playwright-allure/tests/example.spec.ts:101:29\n    at /home/runner/work/playwright-allure/playwright-allure/node_modules/@playwright/test/lib/workerRunner.js:529:7\n    at WorkerRunner._runFn (/home/runner/work/playwright-allure/playwright-allure/node_modules/@playwright/test/lib/workerRunner.js:575:7)\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-allure/playwright-allure/node_modules/@playwright/test/lib/workerRunner.js:523:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Pending operations:\n  - expect.toContainText at tests/example.spec.ts:101:29\n\nexpect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+    "statusTrace" : "Pending operations:\n  - expect.toContainText at tests/example.spec.ts:101:29\n\nError: expect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n\n    at /home/runner/work/playwright-allure/playwright-allure/tests/example.spec.ts:101:29\n    at /home/runner/work/playwright-allure/playwright-allure/node_modules/@playwright/test/lib/workerRunner.js:529:7\n    at WorkerRunner._runFn (/home/runner/work/playwright-allure/playwright-allure/node_modules/@playwright/test/lib/workerRunner.js:575:7)\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-allure/playwright-allure/node_modules/@playwright/test/lib/workerRunner.js:523:20)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644612492123,
+        "stop" : 1644612493615,
+        "duration" : 1492
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644612492968,
+          "stop" : 1644612493406,
+          "duration" : 438
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(https://example.com)",
+        "time" : {
+          "start" : 1644612493408,
+          "stop" : 1644612493615,
+          "duration" : 207
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "expect.toContainText",
+      "time" : {
+        "start" : 1644612493617,
+        "stop" : 1644612498186,
+        "duration" : 4569
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644612498124,
+        "stop" : 1644612498189,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644612498167,
+          "stop" : 1644612498188,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "264cef798da2d87e",
+      "name" : "screenshot",
+      "source" : "264cef798da2d87e.png",
+      "type" : "image/png",
+      "size" : 27485
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Firefox"
+  }, {
+    "name" : "suite",
+    "value" : "tests/example.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Failing Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d27f36a9813ccb91",
+      "status" : "broken",
+      "statusDetails" : "Pending operations:\n  - expect.toContainText at tests/example.spec.ts:101:29\n\nexpect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "time" : {
+        "start" : 1644611978240,
+        "stop" : 1644611984324,
+        "duration" : 6084
+      }
+    }, {
+      "uid" : "2bc0f49410ae9a5b",
+      "status" : "broken",
+      "statusDetails" : "Pending operations:\n  - expect.toContainText at tests/example.spec.ts:101:29\n\nexpect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "time" : {
+        "start" : 1644610240734,
+        "stop" : 1644610246817,
+        "duration" : 6083
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ba10012282680154.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,370 @@
+{
+  "Webkit tests/example.spec.ts Hooks Single element Screenshot" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4911e27a4188f38",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/f4911e27a4188f38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644609305062,
+        "stop" : 1644609305539,
+        "duration" : 477
+      }
+    } ]
+  },
+  "Firefox tests/example.spec.ts Failing Tests Screenshots" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7ee35c897a78c95",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/c7ee35c897a78c95",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContainText(expected)\n\nExpected string: \"Fun Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "time" : {
+        "start" : 1644612485981,
+        "stop" : 1644612491306,
+        "duration" : 5325
+      }
+    } ]
+  },
+  "Webkit tests/example.spec.ts Hooks Screenshots" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9af1939a2cfef4df",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/9af1939a2cfef4df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644609303780,
+        "stop" : 1644609305062,
+        "duration" : 1282
+      }
+    } ]
+  },
+  "Firefox tests/example.spec.ts Hooks Screenshots" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4b02ae0562a7028",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/b4b02ae0562a7028",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644609303776,
+        "stop" : 1644609305944,
+        "duration" : 2168
+      }
+    } ]
+  },
+  "Firefox tests/example.spec.ts Failing Tests Single element Screenshot" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba10012282680154",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/ba10012282680154",
+      "status" : "broken",
+      "statusDetails" : "Pending operations:\n  - expect.toContainText at tests/example.spec.ts:101:29\n\nexpect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "time" : {
+        "start" : 1644612492123,
+        "stop" : 1644612498189,
+        "duration" : 6066
+      }
+    } ]
+  },
+  "Webkit tests/example.spec.ts Failing Tests Screenshots" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccdee56b13ae5068",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/ccdee56b13ae5068",
+      "status" : "failed",
+      "statusDetails" : "browserType.launch: \n╔════════════════════════════════════════════════════════════╗\n║ Host system is missing a few dependencies to run browsers. ║\n║ Please install them with the following command:            ║\n║                                                            ║\n║     sudo npx playwright install-deps                       ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+      "time" : {
+        "start" : 1644612500171,
+        "stop" : 1644612500416,
+        "duration" : 245
+      }
+    } ]
+  },
+  "Chromium tests/example.spec.ts Passing Tests Single element Screenshot" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30246ec467959539",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/30246ec467959539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644612472179,
+        "stop" : 1644612472463,
+        "duration" : 284
+      }
+    } ]
+  },
+  "Chromium tests/example.spec.ts Hooks Single element Screenshot" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5d099159f90d0c6",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/d5d099159f90d0c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644609305563,
+        "stop" : 1644609305896,
+        "duration" : 333
+      }
+    } ]
+  },
+  "Firefox tests/example.spec.ts Hooks Single element Screenshot" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "911f3c2ee2cc2f9e",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/911f3c2ee2cc2f9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644609305944,
+        "stop" : 1644609306346,
+        "duration" : 402
+      }
+    } ]
+  },
+  "Firefox tests/example.spec.ts Passing Tests Single element Screenshot" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a753d51b625ad107",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/a753d51b625ad107",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644612485549,
+        "stop" : 1644612485981,
+        "duration" : 432
+      }
+    } ]
+  },
+  "Chromium tests/example.spec.ts Passing Tests Screenshots" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "abad2fe4513a19e",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/abad2fe4513a19e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644612471583,
+        "stop" : 1644612472179,
+        "duration" : 596
+      }
+    } ]
+  },
+  "Webkit tests/example.spec.ts Passing Tests Screenshots" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c40abafbd0d9ed31",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/c40abafbd0d9ed31",
+      "status" : "failed",
+      "statusDetails" : "browserType.launch: \n╔════════════════════════════════════════════════════════════╗\n║ Host system is missing a few dependencies to run browsers. ║\n║ Please install them with the following command:            ║\n║                                                            ║\n║     sudo npx playwright install-deps                       ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+      "time" : {
+        "start" : 1644612498985,
+        "stop" : 1644612499229,
+        "duration" : 244
+      }
+    } ]
+  },
+  "Chromium tests/example.spec.ts Hooks Screenshots" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "689295f8b0cc4e03",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/689295f8b0cc4e03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644609303770,
+        "stop" : 1644609305563,
+        "duration" : 1793
+      }
+    } ]
+  },
+  "Chromium tests/example.spec.ts Failing Tests Screenshots" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ea7b04e9845d146",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/8ea7b04e9845d146",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContainText(expected)\n\nExpected string: \"Fun Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "time" : {
+        "start" : 1644612472463,
+        "stop" : 1644612477662,
+        "duration" : 5199
+      }
+    } ]
+  },
+  "Chromium tests/example.spec.ts Failing Tests Single element Screenshot" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b5af55d474d9f4c",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/4b5af55d474d9f4c",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "time" : {
+        "start" : 1644612478041,
+        "stop" : 1644612483451,
+        "duration" : 5410
+      }
+    } ]
+  },
+  "Firefox tests/example.spec.ts Passing Tests Screenshots" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57adc9bf927a8be6",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/57adc9bf927a8be6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644612483833,
+        "stop" : 1644612485549,
+        "duration" : 1716
+      }
+    } ]
+  },
+  "Webkit tests/example.spec.ts Failing Tests Single element Screenshot" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccc71a203e61af21",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/ccc71a203e61af21",
+      "status" : "failed",
+      "statusDetails" : "browserType.launch: \n╔════════════════════════════════════════════════════════════╗\n║ Host system is missing a few dependencies to run browsers. ║\n║ Please install them with the following command:            ║\n║                                                            ║\n║     sudo npx playwright install-deps                       ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+      "time" : {
+        "start" : 1644612500762,
+        "stop" : 1644612501002,
+        "duration" : 240
+      }
+    } ]
+  },
+  "Webkit tests/example.spec.ts Passing Tests Single element Screenshot" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d7c721f19458967",
+      "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/2d7c721f19458967",
+      "status" : "failed",
+      "statusDetails" : "browserType.launch: \n╔════════════════════════════════════════════════════════════╗\n║ Host system is missing a few dependencies to run browsers. ║\n║ Please install them with the following command:            ║\n║                                                            ║\n║     sudo npx playwright install-deps                       ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+      "time" : {
+        "start" : 1644612499579,
+        "stop" : 1644612499820,
+        "duration" : 241
+      }
+    } ]
+  }
+}

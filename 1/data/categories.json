@@ -1,0 +1,133 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toContainText(expected)\n\nExpected string: \"Fun Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "children" : [ {
+        "name" : "Screenshots",
+        "uid" : "8ea7b04e9845d146",
+        "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644612472463,
+          "stop" : 1644612477662,
+          "duration" : 5199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Screenshots",
+        "uid" : "c7ee35c897a78c95",
+        "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644612485981,
+          "stop" : 1644612491306,
+          "duration" : 5325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d86473ceed24569106440f2a12d0ab7a"
+    }, {
+      "name" : "expect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "children" : [ {
+        "name" : "Single element Screenshot",
+        "uid" : "4b5af55d474d9f4c",
+        "parentUid" : "de3c917b062d1dd82588d4f8aa9a1049",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644612478041,
+          "stop" : 1644612483451,
+          "duration" : 5410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de3c917b062d1dd82588d4f8aa9a1049"
+    }, {
+      "name" : "browserType.launch: \n╔════════════════════════════════════════════════════════════╗\n║ Host system is missing a few dependencies to run browsers. ║\n║ Please install them with the following command:            ║\n║                                                            ║\n║     sudo npx playwright install-deps                       ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+      "children" : [ {
+        "name" : "Screenshots",
+        "uid" : "c40abafbd0d9ed31",
+        "parentUid" : "5323cae04e48d5b62111c21aca02839a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644612498985,
+          "stop" : 1644612499229,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Single element Screenshot",
+        "uid" : "2d7c721f19458967",
+        "parentUid" : "5323cae04e48d5b62111c21aca02839a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644612499579,
+          "stop" : 1644612499820,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Screenshots",
+        "uid" : "ccdee56b13ae5068",
+        "parentUid" : "5323cae04e48d5b62111c21aca02839a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644612500171,
+          "stop" : 1644612500416,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Single element Screenshot",
+        "uid" : "ccc71a203e61af21",
+        "parentUid" : "5323cae04e48d5b62111c21aca02839a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644612500762,
+          "stop" : 1644612501002,
+          "duration" : 240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5323cae04e48d5b62111c21aca02839a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Pending operations:\n  - expect.toContainText at tests/example.spec.ts:101:29\n\nexpect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "children" : [ {
+        "name" : "Single element Screenshot",
+        "uid" : "ba10012282680154",
+        "parentUid" : "bc48dfdc0b58809627f973a32b8653a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644612492123,
+          "stop" : 1644612498189,
+          "duration" : 6066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc48dfdc0b58809627f973a32b8653a5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
