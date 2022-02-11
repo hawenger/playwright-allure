@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 
-test('Simple Basic test', async ({ page }) => {
+test('Confirm Domain', async ({ page }) => {
   await page.goto('https://www.example.com')
   const pageTitle = await page.locator('h1')
   await expect(pageTitle).toContainText('Example Domain')
@@ -74,6 +74,7 @@ test('a new test @myTag', async ({ page }) => {
 test.describe.only('Passing Tests', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('https://example.com')
+    await expect(page).toHaveURL('https://example.com')
   })
   //screenshots
   test('Screenshots', async ({ page }) => {
@@ -90,6 +91,7 @@ test.describe.only('Passing Tests', () => {
 test.describe.only('Failing Tests', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('https://example.com')
+    await expect(page).toHaveURL('https://example.com')
   })
   //screenshots
   test('Screenshots', async ({ page }) => {
