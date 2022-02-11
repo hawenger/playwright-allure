@@ -1,0 +1,181 @@
+[ {
+  "uid" : "7d2099067123f668",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644614772060,
+    "stop" : 1644614777495,
+    "duration" : 5435
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9da9ac493844ea10",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644614786797,
+    "stop" : 1644614792862,
+    "duration" : 6065
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "91e46733e9cba264",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644609305944,
+    "stop" : 1644609306346,
+    "duration" : 402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ce118d9363c7226",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644609303780,
+    "stop" : 1644609305062,
+    "duration" : 1282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35ad74ca7f5e5e62",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644614794306,
+    "stop" : 1644614794560,
+    "duration" : 254
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f45604b2670e32c7",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644614794919,
+    "stop" : 1644614795173,
+    "duration" : 254
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff7d4ad29c9eaee8",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644614795531,
+    "stop" : 1644614795784,
+    "duration" : 253
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3eef07cda6fc091",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644609305062,
+    "stop" : 1644609305539,
+    "duration" : 477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93ea7e181666c030",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644614793694,
+    "stop" : 1644614793947,
+    "duration" : 253
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c51678158d2cccdb",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644609303776,
+    "stop" : 1644609305944,
+    "duration" : 2168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "122c701f672217f2",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644614777875,
+    "stop" : 1644614780116,
+    "duration" : 2241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7352a72901d74dcc",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644614766177,
+    "stop" : 1644614766476,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1324ab8a37d48bb0",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644614780555,
+    "stop" : 1644614785936,
+    "duration" : 5381
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1bf488e0ec04353",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644614766477,
+    "stop" : 1644614771679,
+    "duration" : 5202
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c5901596d75550b",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644609305563,
+    "stop" : 1644609305896,
+    "duration" : 333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f739b1d83b0590ea",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644609303770,
+    "stop" : 1644609305563,
+    "duration" : 1793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1aa7f3d6ccbee66f",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644614764618,
+    "stop" : 1644614766177,
+    "duration" : 1559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d6dce2060657ebf",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644614780116,
+    "stop" : 1644614780555,
+    "duration" : 439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
