@@ -1,0 +1,95 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toContainText(expected)\n\nExpected string: \"Fun Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "children" : [ {
+        "name" : "Screenshots",
+        "uid" : "a55c6b5283b7225b",
+        "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644615484129,
+          "stop" : 1644615489492,
+          "duration" : 5363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Screenshots",
+        "uid" : "805385f58cec629f",
+        "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644615484973,
+          "stop" : 1644615490310,
+          "duration" : 5337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Screenshots",
+        "uid" : "82f33c3e6ca68b6d",
+        "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644615485516,
+          "stop" : 1644615491060,
+          "duration" : 5544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d86473ceed24569106440f2a12d0ab7a"
+    }, {
+      "name" : "expect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "children" : [ {
+        "name" : "Single element Screenshot",
+        "uid" : "404b300c9c9e4693",
+        "parentUid" : "de3c917b062d1dd82588d4f8aa9a1049",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644615489799,
+          "stop" : 1644615495294,
+          "duration" : 5495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Single element Screenshot",
+        "uid" : "b8602f86f1c83bf0",
+        "parentUid" : "de3c917b062d1dd82588d4f8aa9a1049",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644615490472,
+          "stop" : 1644615496059,
+          "duration" : 5587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Single element Screenshot",
+        "uid" : "179875a0934b02c7",
+        "parentUid" : "de3c917b062d1dd82588d4f8aa9a1049",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644615491496,
+          "stop" : 1644615497438,
+          "duration" : 5942
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de3c917b062d1dd82588d4f8aa9a1049"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
