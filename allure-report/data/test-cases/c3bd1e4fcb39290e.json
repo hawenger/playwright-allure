@@ -1,0 +1,230 @@
+{
+  "uid" : "c3bd1e4fcb39290e",
+  "name" : "Screenshots",
+  "fullName" : "Screenshots",
+  "historyId" : "Firefox tests/example.spec.ts Passing Tests Screenshots",
+  "time" : {
+    "start" : 1644863869912,
+    "stop" : 1644863871213,
+    "duration" : 1301
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644863869912,
+        "stop" : 1644863871108,
+        "duration" : 1196
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644863870565,
+          "stop" : 1644863870842,
+          "duration" : 277
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(https://example.com)",
+        "time" : {
+          "start" : 1644863870843,
+          "stop" : 1644863871042,
+          "duration" : 199
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expect.toHaveURL",
+        "time" : {
+          "start" : 1644863871044,
+          "stop" : 1644863871108,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.screenshot",
+      "time" : {
+        "start" : 1644863871109,
+        "stop" : 1644863871171,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644863871174,
+        "stop" : 1644863871213,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644863871206,
+          "stop" : 1644863871212,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Firefox"
+  }, {
+    "name" : "suite",
+    "value" : "tests/example.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Passing Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "951ce65c2f11fb1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644863835977,
+        "stop" : 1644863837567,
+        "duration" : 1590
+      }
+    }, {
+      "uid" : "32ef3d07b1524f3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644863714258,
+        "stop" : 1644863716116,
+        "duration" : 1858
+      }
+    }, {
+      "uid" : "cbdbe89d7b9ba58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644861647617,
+        "stop" : 1644861648922,
+        "duration" : 1305
+      }
+    }, {
+      "uid" : "98904453f284f66b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644861324178,
+        "stop" : 1644861326286,
+        "duration" : 2108
+      }
+    }, {
+      "uid" : "39848c0a11e49e9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644615481729,
+        "stop" : 1644615484992,
+        "duration" : 3263
+      }
+    }, {
+      "uid" : "a995389d113e2159",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644612691761,
+        "stop" : 1644612693658,
+        "duration" : 1897
+      }
+    }, {
+      "uid" : "233ac77b71630ddc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644611969880,
+        "stop" : 1644611971902,
+        "duration" : 2022
+      }
+    }, {
+      "uid" : "9085a196d68cdb94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644610232205,
+        "stop" : 1644610234290,
+        "duration" : 2085
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3bd1e4fcb39290e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,245 @@
+{
+  "uid" : "125393ecee7990e2",
+  "name" : "Single element Screenshot",
+  "fullName" : "Single element Screenshot",
+  "historyId" : "Webkit tests/example.spec.ts Passing Tests Single element Screenshot",
+  "time" : {
+    "start" : 1644863871215,
+    "stop" : 1644863872028,
+    "duration" : 813
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644863871216,
+        "stop" : 1644863871972,
+        "duration" : 756
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644863871371,
+          "stop" : 1644863871597,
+          "duration" : 226
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(https://example.com)",
+        "time" : {
+          "start" : 1644863871598,
+          "stop" : 1644863871948,
+          "duration" : 350
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expect.toHaveURL",
+        "time" : {
+          "start" : 1644863871949,
+          "stop" : 1644863871972,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.$(h1)",
+      "time" : {
+        "start" : 1644863871973,
+        "stop" : 1644863871976,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "elementHandle.screenshot",
+      "time" : {
+        "start" : 1644863871977,
+        "stop" : 1644863872012,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644863872013,
+        "stop" : 1644863872028,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644863872025,
+          "stop" : 1644863872028,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Webkit"
+  }, {
+    "name" : "suite",
+    "value" : "tests/example.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Passing Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fefc20279b34d16d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644863837679,
+        "stop" : 1644863838572,
+        "duration" : 893
+      }
+    }, {
+      "uid" : "5679d958760c9c8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644863715436,
+        "stop" : 1644863716702,
+        "duration" : 1266
+      }
+    }, {
+      "uid" : "a4f610277eb8f18c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644861648347,
+        "stop" : 1644861648885,
+        "duration" : 538
+      }
+    }, {
+      "uid" : "b9f95603beed7a24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644861326508,
+        "stop" : 1644861326861,
+        "duration" : 353
+      }
+    }, {
+      "uid" : "b24fa753e8d2b190",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644615483681,
+        "stop" : 1644615484130,
+        "duration" : 449
+      }
+    }, {
+      "uid" : "b59350543405dfe2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644612692806,
+        "stop" : 1644612693207,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "776ad0cf41df990a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644611970964,
+        "stop" : 1644611971550,
+        "duration" : 586
+      }
+    }, {
+      "uid" : "2dfc4b28935abfdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644610233392,
+        "stop" : 1644610233813,
+        "duration" : 421
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "125393ecee7990e2.json",
+  "parameterValues" : [ ]
+}

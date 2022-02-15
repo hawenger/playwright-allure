@@ -1,11 +1,11 @@
 import { test, expect } from '@playwright/test'
-
-test('Confirm Domain', async ({ page }) => {
+import { loadHomepage, assertTitle } from '../helpers'
+test.skip('Confirm Domain', async ({ page }) => {
   await page.goto('https://www.example.com')
   const pageTitle = await page.locator('h1')
   await expect(pageTitle).toContainText('Example Domain')
 })
-test('Click on Elements', async ({ page }) => {
+test.skip('Click on Elements', async ({ page }) => {
   await page.goto('http://zero.webappsecurity.com/index.html')
   await page.click('#signin_button')
   await page.click('text=Sign in')
@@ -31,7 +31,7 @@ test('Click on Elements', async ({ page }) => {
 //  //XPath
 //  await page.click('//button')
 //})
-test('Working with Inputs', async ({ page }) => {
+test.skip('Working with Inputs', async ({ page }) => {
   await page.goto('http://zero.webappsecurity.com/index.html')
   await page.click('#signin_button')
 
@@ -41,7 +41,7 @@ test('Working with Inputs', async ({ page }) => {
   const errorMessage = await page.locator('.alert-error')
   await expect(errorMessage).toContainText('Login and/or password are wrong.')
 })
-test('Assertions', async ({ page }) => {
+test.skip('Assertions', async ({ page }) => {
   await page.goto('https://example.com')
   await expect(page).toHaveURL('https://example.com')
   await expect(page).toHaveTitle('Example Domain')
@@ -65,13 +65,13 @@ test.describe('My first test suite', () => {
 //Tags
 //npx playwright test --grep @myTag
 //npx playwright test --grep-invert @myTag
-test('a new test @myTag', async ({ page }) => {
+test.skip('a new test @myTag', async ({ page }) => {
   await page.goto('https://example.com')
   await expect(page).toHaveURL('https://example.com')
 })
 
 //Before and After Hooks
-test.describe.only('Passing Tests', () => {
+test.describe.parallel.only('Passing Tests', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('https://example.com')
     await expect(page).toHaveURL('https://example.com')
@@ -88,7 +88,7 @@ test.describe.only('Passing Tests', () => {
     await element.screenshot({ path: 'screenshots/component.png' })
   })
 })
-test.describe.only('Failing Tests', () => {
+test.describe.parallel('Failing Tests', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('https://example.com')
     await expect(page).toHaveURL('https://example.com')
@@ -102,4 +102,10 @@ test.describe.only('Failing Tests', () => {
     const pageTitle = await page.locator('h1')
     await expect(pageTitle).toContainText('Random Text')
   })
+})
+//Custom Functions
+test.skip('Custom Helpers', async ({ page }) => {
+  await loadHomepage(page)
+  await page.pause()
+  await assertTitle(page)
 })

@@ -2,7 +2,7 @@ import { PlaywrightTestConfig } from '@playwright/test'
 //npx playwright test --config=playwright.config.ts
 //npx playwright test --config=playwright.config.ts --project=Webkit
 const config: PlaywrightTestConfig = {
-  timeout: 6000,
+  timeout: 600000,
   retries: 0,
   use: {
     headless: true,

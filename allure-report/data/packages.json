@@ -2,7 +2,7 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
     "name" : "Screenshots",
-    "uid" : "4f52b5f9b97a30ed",
+    "uid" : "2fe83e3c97ddcc21",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -19,7 +19,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Screenshots",
-    "uid" : "9bc0fa628f25871c",
+    "uid" : "e8164c9dd0cb67c4",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -36,7 +36,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Screenshots",
-    "uid" : "cb37d260b24835a9",
+    "uid" : "369b0c8242d0bab1",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -53,7 +53,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Single element Screenshot",
-    "uid" : "4effc47c7ff89540",
+    "uid" : "ca332b14105d7657",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -70,7 +70,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Single element Screenshot",
-    "uid" : "4211e68f2fa51078",
+    "uid" : "c0867e60ded8fd73",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -87,7 +87,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Single element Screenshot",
-    "uid" : "1848570aaa3d310",
+    "uid" : "4675c45e1444da4b",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
@@ -104,207 +104,258 @@
     "parameters" : [ ]
   }, {
     "name" : "Screenshots",
-    "uid" : "9d6fb179e24954cf",
+    "uid" : "93d8760046f25f44",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1644615481729,
-      "stop" : 1644615484992,
-      "duration" : 3263
+      "start" : 1644861648886,
+      "stop" : 1644861654220,
+      "duration" : 5334
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 3,
+    "retriesCount" : 5,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Screenshots",
-    "uid" : "211b64c7aabfa4b7",
+    "uid" : "8240bd38038b73b1",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1644615481729,
-      "stop" : 1644615483681,
-      "duration" : 1952
+      "start" : 1644861649292,
+      "stop" : 1644861654617,
+      "duration" : 5325
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 3,
+    "retriesCount" : 5,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Screenshots",
-    "uid" : "f26941e1c6d4d0ae",
+    "uid" : "22bac89a143dd349",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1644615481730,
-      "stop" : 1644615484561,
-      "duration" : 2831
+      "start" : 1644861649471,
+      "stop" : 1644861654799,
+      "duration" : 5328
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 3,
+    "retriesCount" : 5,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Single element Screenshot",
-    "uid" : "c83b670628e6e88c",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644615483681,
-      "stop" : 1644615484130,
-      "duration" : 449
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Screenshots",
-    "uid" : "f9b25d98cde9c21",
+    "uid" : "d5bc72d74916806a",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
-      "start" : 1644615484129,
-      "stop" : 1644615489492,
-      "duration" : 5363
+      "start" : 1644861654402,
+      "stop" : 1644861659843,
+      "duration" : 5441
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 3,
+    "retriesCount" : 5,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Single element Screenshot",
-    "uid" : "12955737b8a8f9df",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644615484561,
-      "stop" : 1644615484973,
-      "duration" : 412
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Screenshots",
-    "uid" : "8e4817d57a7ffdda",
+    "uid" : "f1baa1afd59a75a3",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
-      "start" : 1644615484973,
-      "stop" : 1644615490310,
-      "duration" : 5337
+      "start" : 1644861654792,
+      "stop" : 1644861660320,
+      "duration" : 5528
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 3,
+    "retriesCount" : 5,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Single element Screenshot",
-    "uid" : "6b8fd8910c1bf032",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644615484992,
-      "stop" : 1644615485516,
-      "duration" : 524
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Screenshots",
-    "uid" : "f1d5ba58c5eaab93",
+    "uid" : "4a281802e44e793e",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
-      "start" : 1644615485516,
-      "stop" : 1644615491060,
-      "duration" : 5544
+      "start" : 1644861655210,
+      "stop" : 1644861661063,
+      "duration" : 5853
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Single element Screenshot",
-    "uid" : "3bf5df70d6e9fbd2",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "failed",
-    "time" : {
-      "start" : 1644615489799,
-      "stop" : 1644615495294,
-      "duration" : 5495
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Single element Screenshot",
-    "uid" : "5aa39fde16e8a03e",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "failed",
-    "time" : {
-      "start" : 1644615490472,
-      "stop" : 1644615496059,
-      "duration" : 5587
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Single element Screenshot",
-    "uid" : "7a343b14c3256f1",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "failed",
-    "time" : {
-      "start" : 1644615491496,
-      "stop" : 1644615497438,
-      "duration" : 5942
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
+    "retriesCount" : 5,
     "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Custom Helpers",
+    "uid" : "7a306b284681423",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644862344134,
+      "stop" : 1644862344815,
+      "duration" : 681
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 11,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Custom Helpers",
+    "uid" : "1eacd66c3d8a8406",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644862344134,
+      "stop" : 1644862345112,
+      "duration" : 978
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 11,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Custom Helpers",
+    "uid" : "aa2914be64e27339",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644863382262,
+      "stop" : 1644863396639,
+      "duration" : 14377
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Screenshots",
+    "uid" : "c3bd1e4fcb39290e",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644863869912,
+      "stop" : 1644863871213,
+      "duration" : 1301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Screenshots",
+    "uid" : "b99e5ec6bda0b2d4",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644863869912,
+      "stop" : 1644863870981,
+      "duration" : 1069
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Single element Screenshot",
+    "uid" : "ef79cf49371e7ca5",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644863869915,
+      "stop" : 1644863870995,
+      "duration" : 1080
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Single element Screenshot",
+    "uid" : "8c7d7225e9d046a2",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644863869928,
+      "stop" : 1644863871262,
+      "duration" : 1334
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Single element Screenshot",
+    "uid" : "125393ecee7990e2",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644863871215,
+      "stop" : 1644863872028,
+      "duration" : 813
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Screenshots",
+    "uid" : "ca6d9d033806c207",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644863871241,
+      "stop" : 1644863872059,
+      "duration" : 818
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
     "parameters" : [ ]
   } ],
   "name" : "packages"

@@ -7,9 +7,9 @@
       "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     }
   }, {
     "uid" : "766b375f9458bb5fe1565ec8c36ca147",
@@ -18,9 +18,9 @@
       "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     }
   }, {
     "uid" : "c2a22ffef1542bf01717fe0a9ad87938",
@@ -29,9 +29,9 @@
       "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     }
   } ]
 }

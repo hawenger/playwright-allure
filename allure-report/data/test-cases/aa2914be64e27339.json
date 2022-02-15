@@ -1,0 +1,300 @@
+{
+  "uid" : "aa2914be64e27339",
+  "name" : "Custom Helpers",
+  "fullName" : "Custom Helpers",
+  "historyId" : "Chromium tests/example.spec.ts Custom Helpers",
+  "time" : {
+    "start" : 1644863382262,
+    "stop" : 1644863396639,
+    "duration" : 14377
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 16,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644863382263,
+        "stop" : 1644863383143,
+        "duration" : 880
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644863382586,
+          "stop" : 1644863383143,
+          "duration" : 557
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://www.example.com)",
+      "time" : {
+        "start" : 1644863383144,
+        "stop" : 1644863383362,
+        "duration" : 218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.pause",
+      "time" : {
+        "start" : 1644863383364,
+        "stop" : 1644863396467,
+        "duration" : 13103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1644863396470,
+        "stop" : 1644863396490,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644863396490,
+        "stop" : 1644863396639,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644863396604,
+          "stop" : 1644863396627,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/example.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6ba009a9604aeb1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644863327028,
+        "stop" : 1644863328318,
+        "duration" : 1290
+      }
+    }, {
+      "uid" : "c8b9747b0a291d01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644863318766,
+        "stop" : 1644863319353,
+        "duration" : 587
+      }
+    }, {
+      "uid" : "8a70ff996013cdcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644863303140,
+        "stop" : 1644863304004,
+        "duration" : 864
+      }
+    }, {
+      "uid" : "c54ca6cdc55591e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644863048603,
+        "stop" : 1644863049717,
+        "duration" : 1114
+      }
+    }, {
+      "uid" : "b4fba6ba4475974c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644862344133,
+        "stop" : 1644862344981,
+        "duration" : 848
+      }
+    }, {
+      "uid" : "b42fb885033ac6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644862313688,
+        "stop" : 1644862325561,
+        "duration" : 11873
+      }
+    }, {
+      "uid" : "9ae2444a5ac20fdd",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861940147,
+        "stop" : 1644861946089,
+        "duration" : 5942
+      }
+    }, {
+      "uid" : "3817af864bf66516",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1644861797532,
+        "stop" : 1644861797532,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fbd35ede28221f43",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861783197,
+        "stop" : 1644861789565,
+        "duration" : 6368
+      }
+    }, {
+      "uid" : "5f8a2bb49277397",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861762414,
+        "stop" : 1644861769765,
+        "duration" : 7351
+      }
+    }, {
+      "uid" : "131c05031a06492",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861743162,
+        "stop" : 1644861751901,
+        "duration" : 8739
+      }
+    }, {
+      "uid" : "bafc2e6151834898",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861731956,
+        "stop" : 1644861738242,
+        "duration" : 6286
+      }
+    }, {
+      "uid" : "73346ba011b733e5",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861716855,
+        "stop" : 1644861717488,
+        "duration" : 633
+      }
+    }, {
+      "uid" : "1e7ff9e1e2d1c256",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861680426,
+        "stop" : 1644861681268,
+        "duration" : 842
+      }
+    }, {
+      "uid" : "dc82a2ce811ad75a",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861660484,
+        "stop" : 1644861661022,
+        "duration" : 538
+      }
+    }, {
+      "uid" : "6cc40eb1bb820ead",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861337657,
+        "stop" : 1644861338219,
+        "duration" : 562
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa2914be64e27339.json",
+  "parameterValues" : [ ]
+}

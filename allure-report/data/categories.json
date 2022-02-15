@@ -6,53 +6,53 @@
       "name" : "expect(received).toContainText(expected)\n\nExpected string: \"Fun Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
       "children" : [ {
         "name" : "Screenshots",
-        "uid" : "f9b25d98cde9c21",
+        "uid" : "93d8760046f25f44",
         "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
         "status" : "failed",
         "time" : {
-          "start" : 1644615484129,
-          "stop" : 1644615489492,
-          "duration" : 5363
+          "start" : 1644861648886,
+          "stop" : 1644861654220,
+          "duration" : 5334
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 5,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "Screenshots",
-        "uid" : "8e4817d57a7ffdda",
+        "uid" : "8240bd38038b73b1",
         "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
         "status" : "failed",
         "time" : {
-          "start" : 1644615484973,
-          "stop" : 1644615490310,
-          "duration" : 5337
+          "start" : 1644861649292,
+          "stop" : 1644861654617,
+          "duration" : 5325
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 5,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "Screenshots",
-        "uid" : "f1d5ba58c5eaab93",
+        "uid" : "22bac89a143dd349",
         "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
         "status" : "failed",
         "time" : {
-          "start" : 1644615485516,
-          "stop" : 1644615491060,
-          "duration" : 5544
+          "start" : 1644861649471,
+          "stop" : 1644861654799,
+          "duration" : 5328
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 5,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
@@ -61,53 +61,53 @@
       "name" : "expect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
       "children" : [ {
         "name" : "Single element Screenshot",
-        "uid" : "3bf5df70d6e9fbd2",
+        "uid" : "d5bc72d74916806a",
         "parentUid" : "de3c917b062d1dd82588d4f8aa9a1049",
         "status" : "failed",
         "time" : {
-          "start" : 1644615489799,
-          "stop" : 1644615495294,
-          "duration" : 5495
+          "start" : 1644861654402,
+          "stop" : 1644861659843,
+          "duration" : 5441
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 5,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "Single element Screenshot",
-        "uid" : "5aa39fde16e8a03e",
+        "uid" : "f1baa1afd59a75a3",
         "parentUid" : "de3c917b062d1dd82588d4f8aa9a1049",
         "status" : "failed",
         "time" : {
-          "start" : 1644615490472,
-          "stop" : 1644615496059,
-          "duration" : 5587
+          "start" : 1644861654792,
+          "stop" : 1644861660320,
+          "duration" : 5528
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 5,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "Single element Screenshot",
-        "uid" : "7a343b14c3256f1",
+        "uid" : "4a281802e44e793e",
         "parentUid" : "de3c917b062d1dd82588d4f8aa9a1049",
         "status" : "failed",
         "time" : {
-          "start" : 1644615491496,
-          "stop" : 1644615497438,
-          "duration" : 5942
+          "start" : 1644861655210,
+          "stop" : 1644861661063,
+          "duration" : 5853
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 3,
+        "retriesCount" : 5,
         "retriesStatusChange" : true,
         "parameters" : [ ]
       } ],
