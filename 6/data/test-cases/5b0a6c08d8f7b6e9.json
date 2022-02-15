@@ -1,0 +1,203 @@
+{
+  "uid" : "5b0a6c08d8f7b6e9",
+  "name" : "Screenshots",
+  "fullName" : "Screenshots",
+  "historyId" : "Webkit tests/example.spec.ts Hooks Screenshots",
+  "time" : {
+    "start" : 1644609303780,
+    "stop" : 1644609305062,
+    "duration" : 1282
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644609303780,
+        "stop" : 1644609305012,
+        "duration" : 1232
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644609304225,
+          "stop" : 1644609304810,
+          "duration" : 585
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(https://example.com)",
+        "time" : {
+          "start" : 1644609304812,
+          "stop" : 1644609305012,
+          "duration" : 200
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.screenshot",
+      "time" : {
+        "start" : 1644609305013,
+        "stop" : 1644609305056,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644609305057,
+        "stop" : 1644609305062,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644609305058,
+          "stop" : 1644609305062,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Webkit"
+  }, {
+    "name" : "suite",
+    "value" : "tests/example.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Hooks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "f6254005c87e48c",
+        "reportUrl" : "https://hawenger.github.io/playwright-allure/5//#testresult/f6254005c87e48c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644609303780,
+          "stop" : 1644609305062,
+          "duration" : 1282
+        }
+      }, {
+        "uid" : "79019ad8b7461bab",
+        "reportUrl" : "https://hawenger.github.io/playwright-allure/4//#testresult/79019ad8b7461bab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644609303780,
+          "stop" : 1644609305062,
+          "duration" : 1282
+        }
+      }, {
+        "uid" : "a1408ee27ba1b293",
+        "reportUrl" : "https://hawenger.github.io/playwright-allure/3//#testresult/a1408ee27ba1b293",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644609303780,
+          "stop" : 1644609305062,
+          "duration" : 1282
+        }
+      }, {
+        "uid" : "8ce118d9363c7226",
+        "reportUrl" : "https://hawenger.github.io/playwright-allure/2//#testresult/8ce118d9363c7226",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644609303780,
+          "stop" : 1644609305062,
+          "duration" : 1282
+        }
+      }, {
+        "uid" : "9af1939a2cfef4df",
+        "reportUrl" : "https://hawenger.github.io/playwright-allure/1//#testresult/9af1939a2cfef4df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644609303780,
+          "stop" : 1644609305062,
+          "duration" : 1282
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5b0a6c08d8f7b6e9.json",
+  "parameterValues" : [ ]
+}

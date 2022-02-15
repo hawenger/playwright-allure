@@ -1,0 +1,230 @@
+{
+  "uid" : "f7385cb36b297b45",
+  "name" : "Should send new payment",
+  "fullName" : "Should send new payment",
+  "historyId" : "Chromium e2e-payment.spec.ts New Payment Should send new payment",
+  "time" : {
+    "start" : 1644867277936,
+    "stop" : 1644867288572,
+    "duration" : 10636
+  },
+  "status" : "failed",
+  "statusMessage" : "locator.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#pay_bills_tab\"\n============================================================",
+  "statusTrace" : "locator.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#pay_bills_tab\"\n============================================================\n    at Navbar.clickOnTab (/Users/hannah/Desktop/Active Projects/Playwright-Allure/page-objects/components/Navbar.ts:34:29)\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/e2e/e2e-payment.spec.ts:25:12",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "locator.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#pay_bills_tab\"\n============================================================",
+    "statusTrace" : "locator.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#pay_bills_tab\"\n============================================================\n    at Navbar.clickOnTab (/Users/hannah/Desktop/Active Projects/Playwright-Allure/page-objects/components/Navbar.ts:34:29)\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/e2e/e2e-payment.spec.ts:25:12",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644867277936,
+        "stop" : 1644867278543,
+        "duration" : 607
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644867278277,
+          "stop" : 1644867278541,
+          "duration" : 264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(http://zero.webappsecurity.com/)",
+        "time" : {
+          "start" : 1644867278542,
+          "stop" : 1644867281678,
+          "duration" : 3136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "locator.click(#signin_button)",
+        "time" : {
+          "start" : 1644867278542,
+          "stop" : 1644867280779,
+          "duration" : 2237
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "locator.type(#user_login, username)",
+        "time" : {
+          "start" : 1644867278543,
+          "stop" : 1644867280799,
+          "duration" : 2256
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.click(#pay_bills_tab)",
+      "time" : {
+        "start" : 1644867278545,
+        "stop" : 1644867288558,
+        "duration" : 10013
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.selectOption(#sp_payee)",
+      "time" : {
+        "start" : 1644867278546,
+        "stop" : 1644867288565,
+        "duration" : 10019
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_password, password)",
+      "time" : {
+        "start" : 1644867280800,
+        "stop" : 1644867280807,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(text=Sign in)",
+      "time" : {
+        "start" : 1644867280807,
+        "stop" : 1644867281679,
+        "duration" : 872
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644867288559,
+        "stop" : 1644867288571,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644867288562,
+          "stop" : 1644867288570,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chromium"
+  }, {
+    "name" : "suite",
+    "value" : "e2e-payment.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "New Payment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f7385cb36b297b45.json",
+  "parameterValues" : [ ]
+}

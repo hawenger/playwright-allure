@@ -1,0 +1,149 @@
+{
+  "uid" : "b32f0d682543b24f",
+  "name" : "Negative Login Scenario",
+  "fullName" : "Negative Login Scenario",
+  "historyId" : "Chromium e2e-login.spec.ts Login / Logout Flow Negative Login Scenario",
+  "time" : {
+    "start" : 1644865362549,
+    "stop" : 1644865374542,
+    "duration" : 11993
+  },
+  "status" : "failed",
+  "statusMessage" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"signin_button\"\n============================================================",
+  "statusTrace" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"signin_button\"\n============================================================\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/e2e/e2e-login.spec.ts:11:16",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"signin_button\"\n============================================================",
+    "statusTrace" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"signin_button\"\n============================================================\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/e2e/e2e-login.spec.ts:11:16",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644865362549,
+        "stop" : 1644865364525,
+        "duration" : 1976
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644865362994,
+          "stop" : 1644865363202,
+          "duration" : 208
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(http://zero.webappsecurity.com/)",
+        "time" : {
+          "start" : 1644865363202,
+          "stop" : 1644865364525,
+          "duration" : 1323
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.click(signin_button)",
+      "time" : {
+        "start" : 1644865364526,
+        "stop" : 1644865374532,
+        "duration" : 10006
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644865374533,
+        "stop" : 1644865374542,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644865374535,
+          "stop" : 1644865374542,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chromium"
+  }, {
+    "name" : "suite",
+    "value" : "e2e-login.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Login / Logout Flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b32f0d682543b24f.json",
+  "parameterValues" : [ ]
+}

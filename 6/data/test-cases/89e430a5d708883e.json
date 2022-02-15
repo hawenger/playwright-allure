@@ -1,0 +1,185 @@
+{
+  "uid" : "89e430a5d708883e",
+  "name" : "Full Page Snapshot",
+  "fullName" : "Full Page Snapshot",
+  "historyId" : "Chromium visual.spec.ts Visual Regression Testing Examples Full Page Snapshot",
+  "time" : {
+    "start" : 1644870169381,
+    "stop" : 1644870170702,
+    "duration" : 1321
+  },
+  "status" : "failed",
+  "statusMessage" : "Snapshot comparison failed:\n\nExpected: /Users/hannah/Desktop/Active Projects/Playwright-Allure/test-results/visual-Visual-Regression-Testing-Examples-Full-Page-Snapshot-Chromium/homepage-expected.png\nReceived: /Users/hannah/Desktop/Active Projects/Playwright-Allure/test-results/visual-Visual-Regression-Testing-Examples-Full-Page-Snapshot-Chromium/homepage-actual.png\n    Diff: /Users/hannah/Desktop/Active Projects/Playwright-Allure/test-results/visual-Visual-Regression-Testing-Examples-Full-Page-Snapshot-Chromium/homepage-diff.png",
+  "statusTrace" : "\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/visual/visual.spec.ts:6:37\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:529:7\n    at WorkerRunner._runFn (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:575:7)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:523:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Snapshot comparison failed:\n\nExpected: /Users/hannah/Desktop/Active Projects/Playwright-Allure/test-results/visual-Visual-Regression-Testing-Examples-Full-Page-Snapshot-Chromium/homepage-expected.png\nReceived: /Users/hannah/Desktop/Active Projects/Playwright-Allure/test-results/visual-Visual-Regression-Testing-Examples-Full-Page-Snapshot-Chromium/homepage-actual.png\n    Diff: /Users/hannah/Desktop/Active Projects/Playwright-Allure/test-results/visual-Visual-Regression-Testing-Examples-Full-Page-Snapshot-Chromium/homepage-diff.png",
+    "statusTrace" : "\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/visual/visual.spec.ts:6:37\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:529:7\n    at WorkerRunner._runFn (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:575:7)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:523:20)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644870169382,
+        "stop" : 1644870169946,
+        "duration" : 564
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644870169739,
+          "stop" : 1644870169946,
+          "duration" : 207
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://www.example.com)",
+      "time" : {
+        "start" : 1644870169947,
+        "stop" : 1644870170482,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.screenshot",
+      "time" : {
+        "start" : 1644870170483,
+        "stop" : 1644870170551,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toMatchSnapshot",
+      "time" : {
+        "start" : 1644870170553,
+        "stop" : 1644870170697,
+        "duration" : 144
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644870170698,
+        "stop" : 1644870170703,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644870170698,
+          "stop" : 1644870170703,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "71a9b3ab79ce2e2d",
+      "name" : "expected",
+      "source" : "71a9b3ab79ce2e2d.png",
+      "type" : "image/png",
+      "size" : 5320
+    }, {
+      "uid" : "4b09ea35cbddb3b9",
+      "name" : "actual",
+      "source" : "4b09ea35cbddb3b9.png",
+      "type" : "image/png",
+      "size" : 29496
+    }, {
+      "uid" : "94758adaded09a5a",
+      "name" : "diff",
+      "source" : "94758adaded09a5a.png",
+      "type" : "image/png",
+      "size" : 11724
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chromium"
+  }, {
+    "name" : "suite",
+    "value" : "visual.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Visual Regression Testing Examples"
+  }, {
+    "name" : "testType",
+    "value" : "screenshotDiff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89e430a5d708883e.json",
+  "parameterValues" : [ ]
+}

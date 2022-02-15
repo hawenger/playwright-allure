@@ -1,0 +1,236 @@
+{
+  "uid" : "331cb0af6523cc9b",
+  "name" : "Custom Helpers",
+  "fullName" : "Custom Helpers",
+  "historyId" : "Firefox tests/example.spec.ts Custom Helpers",
+  "time" : {
+    "start" : 1644862344134,
+    "stop" : 1644862345112,
+    "duration" : 978
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644862344134,
+        "stop" : 1644862344877,
+        "duration" : 743
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644862344648,
+          "stop" : 1644862344877,
+          "duration" : 229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://www.example.com)",
+      "time" : {
+        "start" : 1644862344878,
+        "stop" : 1644862345037,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1644862345038,
+        "stop" : 1644862345062,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644862345062,
+        "stop" : 1644862345112,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644862345106,
+          "stop" : 1644862345111,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Firefox"
+  }, {
+    "name" : "suite",
+    "value" : "tests/example.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b73335cee200d1a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644862326043,
+        "stop" : 1644862330240,
+        "duration" : 4197
+      }
+    }, {
+      "uid" : "637445fe2d6d542c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1644861946417,
+        "stop" : 1644861946417,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8b349ad24ca36412",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1644861939105,
+        "stop" : 1644861939105,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1d64bee23dc8a661",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1644861789895,
+        "stop" : 1644861789895,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e8b4228e55a81973",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1644861770131,
+        "stop" : 1644861770131,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5f6d749f0ea15ecd",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1644861752193,
+        "stop" : 1644861752193,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9861f8652eb60051",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1644861738493,
+        "stop" : 1644861738493,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db8228ca1794ffe6",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861716855,
+        "stop" : 1644861717815,
+        "duration" : 960
+      }
+    }, {
+      "uid" : "75104c53d437c7fb",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861680426,
+        "stop" : 1644861681537,
+        "duration" : 1111
+      }
+    }, {
+      "uid" : "e1f54985a7e262de",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861661453,
+        "stop" : 1644861662280,
+        "duration" : 827
+      }
+    }, {
+      "uid" : "540677b36a32aad0",
+      "status" : "failed",
+      "statusDetails" : "page.waitforSelector is not a function",
+      "time" : {
+        "start" : 1644861338915,
+        "stop" : 1644861339742,
+        "duration" : 827
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "331cb0af6523cc9b.json",
+  "parameterValues" : [ ]
+}

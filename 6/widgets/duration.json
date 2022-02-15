@@ -1,0 +1,351 @@
+[ {
+  "uid" : "d63369f8a62cd2ac",
+  "name" : "Negative Scenario for login",
+  "time" : {
+    "start" : 1644867277932,
+    "stop" : 1644867284586,
+    "duration" : 6654
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3a5e3e0c55c467c",
+  "name" : "Custom Helpers",
+  "time" : {
+    "start" : 1644862344134,
+    "stop" : 1644862344815,
+    "duration" : 681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b6e4a8d92c9ff4e",
+  "name" : "Should make currency exchange",
+  "time" : {
+    "start" : 1644867277929,
+    "stop" : 1644867288566,
+    "duration" : 10637
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b812614fb1910b76",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644861654402,
+    "stop" : 1644861659843,
+    "duration" : 5441
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d92f9f05f22fae88",
+  "name" : "Transfer funds",
+  "time" : {
+    "start" : 1644867288778,
+    "stop" : 1644867299080,
+    "duration" : 10302
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e640fb22dd442196",
+  "name" : "Reset feedback form",
+  "time" : {
+    "start" : 1644867288773,
+    "stop" : 1644867290111,
+    "duration" : 1338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78d552c938ec66ea",
+  "name" : "Negative Login Scenario",
+  "time" : {
+    "start" : 1644865646024,
+    "stop" : 1644865648216,
+    "duration" : 2192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87469b1d42833c75",
+  "name" : "Should find search results",
+  "time" : {
+    "start" : 1644867288771,
+    "stop" : 1644867289972,
+    "duration" : 1201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79a59963103455f7",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644861649471,
+    "stop" : 1644861654799,
+    "duration" : 5328
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7385cb36b297b45",
+  "name" : "Should send new payment",
+  "time" : {
+    "start" : 1644867277936,
+    "stop" : 1644867288572,
+    "duration" : 10636
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b51443796eb5df2",
+  "name" : "Single Element Snapshot",
+  "time" : {
+    "start" : 1644870254888,
+    "stop" : 1644870255326,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "331cb0af6523cc9b",
+  "name" : "Custom Helpers",
+  "time" : {
+    "start" : 1644862344134,
+    "stop" : 1644862345112,
+    "duration" : 978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "421dbe71a0fc2b16",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644861648886,
+    "stop" : 1644861654220,
+    "duration" : 5334
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea34fb68d24fb362",
+  "name" : "Login Form",
+  "time" : {
+    "start" : 1644871410438,
+    "stop" : 1644871417522,
+    "duration" : 7084
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c331c7e4f496acf",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644863869928,
+    "stop" : 1644863871262,
+    "duration" : 1334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8796dc63e66e997c",
+  "name" : "Submit feedback form",
+  "time" : {
+    "start" : 1644867290112,
+    "stop" : 1644867291159,
+    "duration" : 1047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95596a132d8222ed",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644863869912,
+    "stop" : 1644863871213,
+    "duration" : 1301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29fa02e1bfe1c098",
+  "name" : "Positive Login Scenario + Logout",
+  "time" : {
+    "start" : 1644865646024,
+    "stop" : 1644865653187,
+    "duration" : 7163
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9943bb8b359e6b6c",
+  "name" : "Custom Helpers",
+  "time" : {
+    "start" : 1644863382262,
+    "stop" : 1644863396639,
+    "duration" : 14377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b131b3d788161a2f",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644863871241,
+    "stop" : 1644863872059,
+    "duration" : 818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13110ee21ad4f71a",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644609303770,
+    "stop" : 1644609305563,
+    "duration" : 1793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d67bf7a2508bfe21",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644861655210,
+    "stop" : 1644861661063,
+    "duration" : 5853
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "abe20d63949faafe",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644861654792,
+    "stop" : 1644861660320,
+    "duration" : 5528
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0b03f1d5cf59b38",
+  "name" : "Full Page Snapshot",
+  "time" : {
+    "start" : 1644870248892,
+    "stop" : 1644870254886,
+    "duration" : 5994
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "369e33972dce38bb",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644609305944,
+    "stop" : 1644609306346,
+    "duration" : 402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14831b0dc3d2e741",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644863869915,
+    "stop" : 1644863870995,
+    "duration" : 1080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ffe3df2dd8e68a1",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644609305563,
+    "stop" : 1644609305896,
+    "duration" : 333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b0a6c08d8f7b6e9",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644609303780,
+    "stop" : 1644609305062,
+    "duration" : 1282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9a5a74d51c77cc4",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644609305062,
+    "stop" : 1644609305539,
+    "duration" : 477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0c4112fdbaf5c19",
+  "name" : "Positive Scenario for login + logout",
+  "time" : {
+    "start" : 1644867284586,
+    "stop" : 1644867291891,
+    "duration" : 7305
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "df0ad7438d7c1703",
+  "name" : "Verify the results for each account",
+  "time" : {
+    "start" : 1644867277934,
+    "stop" : 1644867288566,
+    "duration" : 10632
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9f70587d6f09484",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644861649292,
+    "stop" : 1644861654617,
+    "duration" : 5325
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfee3e0db345f804",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644863869912,
+    "stop" : 1644863870981,
+    "duration" : 1069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85bb8f54d136614",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644609303776,
+    "stop" : 1644609305944,
+    "duration" : 2168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b8da8b81758c629",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644863871215,
+    "stop" : 1644863872028,
+    "duration" : 813
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

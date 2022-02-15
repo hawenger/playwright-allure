@@ -1,0 +1,224 @@
+{
+  "uid" : "d92f9f05f22fae88",
+  "name" : "Transfer funds",
+  "fullName" : "Transfer funds",
+  "historyId" : "Chromium e2e-transfer-funds.spec.ts Transfer Funds and Make Payments Transfer funds",
+  "time" : {
+    "start" : 1644867288778,
+    "stop" : 1644867299080,
+    "duration" : 10302
+  },
+  "status" : "failed",
+  "statusMessage" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#transfer_funds_tab\"\n============================================================",
+  "statusTrace" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#transfer_funds_tab\"\n============================================================\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/e2e/e2e-transfer-funds.spec.ts:19:16",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#transfer_funds_tab\"\n============================================================",
+    "statusTrace" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#transfer_funds_tab\"\n============================================================\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/e2e/e2e-transfer-funds.spec.ts:19:16",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644867288778,
+        "stop" : 1644867289065,
+        "duration" : 287
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644867288906,
+          "stop" : 1644867289062,
+          "duration" : 156
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(http://zero.webappsecurity.com/)",
+        "time" : {
+          "start" : 1644867289064,
+          "stop" : 1644867290162,
+          "duration" : 1098
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "locator.click(#signin_button)",
+        "time" : {
+          "start" : 1644867289064,
+          "stop" : 1644867289634,
+          "duration" : 570
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "locator.type(#user_login, username)",
+        "time" : {
+          "start" : 1644867289065,
+          "stop" : 1644867289652,
+          "duration" : 587
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.click(#transfer_funds_tab)",
+      "time" : {
+        "start" : 1644867289066,
+        "stop" : 1644867299072,
+        "duration" : 10006
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_password, password)",
+      "time" : {
+        "start" : 1644867289652,
+        "stop" : 1644867289682,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(text=Sign in)",
+      "time" : {
+        "start" : 1644867289682,
+        "stop" : 1644867290162,
+        "duration" : 480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644867299073,
+        "stop" : 1644867299080,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644867299075,
+          "stop" : 1644867299079,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chromium"
+  }, {
+    "name" : "suite",
+    "value" : "e2e-transfer-funds.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Transfer Funds and Make Payments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3f883d9cc1e288c",
+      "status" : "failed",
+      "statusDetails" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#transfer_funds_tab\"\n============================================================",
+      "time" : {
+        "start" : 1644866165910,
+        "stop" : 1644866178393,
+        "duration" : 12483
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d92f9f05f22fae88.json",
+  "parameterValues" : [ ]
+}
