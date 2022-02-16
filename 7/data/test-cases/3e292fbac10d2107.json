@@ -1,0 +1,140 @@
+{
+  "uid" : "3e292fbac10d2107",
+  "name" : "Simple API Test - Assert Invalid Endpoint",
+  "fullName" : "Simple API Test - Assert Invalid Endpoint",
+  "historyId" : "Chromium api.spec.ts API Testing Simple API Test - Assert Invalid Endpoint",
+  "time" : {
+    "start" : 1644953249240,
+    "stop" : 1644953249811,
+    "duration" : 571
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: 404\nReceived: 200",
+  "statusTrace" : "\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/api/api.spec.ts:11:31\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:529:7\n    at WorkerRunner._runFn (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:575:7)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:523:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: 404\nReceived: 200",
+    "statusTrace" : "\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/api/api.spec.ts:11:31\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:529:7\n    at WorkerRunner._runFn (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:575:7)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:523:20)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644953249241,
+        "stop" : 1644953249257,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "apiRequestContext.get(https://regres.in/api/users/non-existing-endpoint)",
+      "time" : {
+        "start" : 1644953249258,
+        "stop" : 1644953249805,
+        "duration" : 547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBe",
+      "time" : {
+        "start" : 1644953249807,
+        "stop" : 1644953249809,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644953249810,
+        "stop" : 1644953249811,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "apiRequestContext.dispose",
+        "time" : {
+          "start" : 1644953249811,
+          "stop" : 1644953249811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e6800e20410f254e",
+      "name" : "stderr",
+      "source" : "e6800e20410f254e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chromium"
+  }, {
+    "name" : "suite",
+    "value" : "api.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "API Testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e292fbac10d2107.json",
+  "parameterValues" : [ ]
+}

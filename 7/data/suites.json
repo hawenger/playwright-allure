@@ -1,0 +1,759 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Chromium",
+    "children" : [ {
+      "name" : "tests/example.spec.ts",
+      "children" : [ {
+        "name" : "Hooks",
+        "children" : [ {
+          "name" : "Screenshots",
+          "uid" : "ae8bd45b013156a5",
+          "parentUid" : "7c3005889fe34920060c04b85bb2d656",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644609303770,
+            "stop" : 1644609305563,
+            "duration" : 1793
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Single element Screenshot",
+          "uid" : "5c9a01a6922cfeac",
+          "parentUid" : "7c3005889fe34920060c04b85bb2d656",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644609305563,
+            "stop" : 1644609305896,
+            "duration" : 333
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7c3005889fe34920060c04b85bb2d656"
+      }, {
+        "name" : "Failing Tests",
+        "children" : [ {
+          "name" : "Screenshots",
+          "uid" : "389841703aecd1ee",
+          "parentUid" : "44bb89dad800e5825fd76d09446c2ed9",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644861649292,
+            "stop" : 1644861654617,
+            "duration" : 5325
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Single element Screenshot",
+          "uid" : "bb4ad2658a7e6bf5",
+          "parentUid" : "44bb89dad800e5825fd76d09446c2ed9",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644861654792,
+            "stop" : 1644861660320,
+            "duration" : 5528
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "44bb89dad800e5825fd76d09446c2ed9"
+      }, {
+        "name" : "Custom Helpers",
+        "uid" : "2047623c58326005",
+        "parentUid" : "c0e49e45a5a82cbbf44bdd166ef076ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644863382262,
+          "stop" : 1644863396639,
+          "duration" : 14377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Passing Tests",
+        "children" : [ {
+          "name" : "Screenshots",
+          "uid" : "b5e0f45456bed5dc",
+          "parentUid" : "dec18ddb19f0c0f99fc69f2eee78c445",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644863869912,
+            "stop" : 1644863870981,
+            "duration" : 1069
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Single element Screenshot",
+          "uid" : "1084500a7d2733f",
+          "parentUid" : "dec18ddb19f0c0f99fc69f2eee78c445",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644863869915,
+            "stop" : 1644863870995,
+            "duration" : 1080
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dec18ddb19f0c0f99fc69f2eee78c445"
+      } ],
+      "uid" : "c0e49e45a5a82cbbf44bdd166ef076ac"
+    }, {
+      "name" : "e2e-login.spec.ts",
+      "children" : [ {
+        "name" : "Login / Logout Flow",
+        "children" : [ {
+          "name" : "Negative Login Scenario",
+          "uid" : "468c48de535180d5",
+          "parentUid" : "0c40d6fa3ecdc0bf4947fb71ba704a0b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644865646024,
+            "stop" : 1644865648216,
+            "duration" : 2192
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Positive Login Scenario + Logout",
+          "uid" : "9bb9914c2148e709",
+          "parentUid" : "0c40d6fa3ecdc0bf4947fb71ba704a0b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644865646024,
+            "stop" : 1644865653187,
+            "duration" : 7163
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Negative Scenario for login",
+          "uid" : "5d6e06dda994072",
+          "parentUid" : "0c40d6fa3ecdc0bf4947fb71ba704a0b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644867277932,
+            "stop" : 1644867284586,
+            "duration" : 6654
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Positive Scenario for login + logout",
+          "uid" : "d6fe37c30ee9008",
+          "parentUid" : "0c40d6fa3ecdc0bf4947fb71ba704a0b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644867284586,
+            "stop" : 1644867291891,
+            "duration" : 7305
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0c40d6fa3ecdc0bf4947fb71ba704a0b"
+      } ],
+      "uid" : "d1aa164d08a3a959fcd9327fdbbbc942"
+    }, {
+      "name" : "e2e-currency-exchange.spec.ts",
+      "children" : [ {
+        "name" : "Currency Exchange Form",
+        "children" : [ {
+          "name" : "Should make currency exchange",
+          "uid" : "9d5a0b3010e49bc5",
+          "parentUid" : "af6451fcc7d66b77f336b78e6ab3f1cf",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644867277929,
+            "stop" : 1644867288566,
+            "duration" : 10637
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "af6451fcc7d66b77f336b78e6ab3f1cf"
+      } ],
+      "uid" : "9a633649251ef7ccc56bf8784082d29d"
+    }, {
+      "name" : "e2e-filter-transactions.spec.ts",
+      "children" : [ {
+        "name" : "Filter Transactions",
+        "children" : [ {
+          "name" : "Verify the results for each account",
+          "uid" : "bb04244ccb360413",
+          "parentUid" : "7043d53be9a2a4ffac26bf6b85c8bc77",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644867277934,
+            "stop" : 1644867288566,
+            "duration" : 10632
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7043d53be9a2a4ffac26bf6b85c8bc77"
+      } ],
+      "uid" : "b89deb483082eb606a6e37abe047f757"
+    }, {
+      "name" : "e2e-payment.spec.ts",
+      "children" : [ {
+        "name" : "New Payment",
+        "children" : [ {
+          "name" : "Should send new payment",
+          "uid" : "dac32364682cc0c9",
+          "parentUid" : "1e4eacd99c85dee9df6bf0f4c732b17d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644867277936,
+            "stop" : 1644867288572,
+            "duration" : 10636
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1e4eacd99c85dee9df6bf0f4c732b17d"
+      } ],
+      "uid" : "8891d08477867eb1c284e1730b0b2a55"
+    }, {
+      "name" : "e2e-search.spec.ts",
+      "children" : [ {
+        "name" : "Search Results",
+        "children" : [ {
+          "name" : "Should find search results",
+          "uid" : "1456fa2542c801",
+          "parentUid" : "e7a77f1d241863cd1f569b3305f9de8b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644867288771,
+            "stop" : 1644867289972,
+            "duration" : 1201
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e7a77f1d241863cd1f569b3305f9de8b"
+      } ],
+      "uid" : "2c5bb12a8d6f97582d451942def476cc"
+    }, {
+      "name" : "e2e-submit-form.spec.ts",
+      "children" : [ {
+        "name" : "Feedback Form",
+        "children" : [ {
+          "name" : "Reset feedback form",
+          "uid" : "74e59d1261775a72",
+          "parentUid" : "3d3455e9060868278dfad1fd1b2019f4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644867288773,
+            "stop" : 1644867290111,
+            "duration" : 1338
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Submit feedback form",
+          "uid" : "a6a50f2e082432cd",
+          "parentUid" : "3d3455e9060868278dfad1fd1b2019f4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644867290112,
+            "stop" : 1644867291159,
+            "duration" : 1047
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3d3455e9060868278dfad1fd1b2019f4"
+      } ],
+      "uid" : "597c0c89fdde3d3ca69707df1064c4b7"
+    }, {
+      "name" : "e2e-transfer-funds.spec.ts",
+      "children" : [ {
+        "name" : "Transfer Funds and Make Payments",
+        "children" : [ {
+          "name" : "Transfer funds",
+          "uid" : "4bb3a38f3a0b7fab",
+          "parentUid" : "5d60ce0ee32a1a7ade8d98eeab5aebc7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644867288778,
+            "stop" : 1644867299080,
+            "duration" : 10302
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5d60ce0ee32a1a7ade8d98eeab5aebc7"
+      } ],
+      "uid" : "1aa777e07c99b9af84b079eefc57c6a7"
+    }, {
+      "name" : "visual.spec.ts",
+      "children" : [ {
+        "name" : "Visual Regression Testing Examples",
+        "children" : [ {
+          "name" : "Full Page Snapshot",
+          "uid" : "8f4f1a988ac88802",
+          "parentUid" : "568d766da6a1dc1df74bc302f0c2962d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644870248892,
+            "stop" : 1644870254886,
+            "duration" : 5994
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Single Element Snapshot",
+          "uid" : "be5df0794cb9118f",
+          "parentUid" : "568d766da6a1dc1df74bc302f0c2962d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644870254888,
+            "stop" : 1644870255326,
+            "duration" : 438
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "568d766da6a1dc1df74bc302f0c2962d"
+      } ],
+      "uid" : "bbbb44b7c72ac11481ca34fa7ae02518"
+    }, {
+      "name" : "login-visual.spec.ts",
+      "children" : [ {
+        "name" : "Login Page Visual Test",
+        "children" : [ {
+          "name" : "Login Form",
+          "uid" : "a063d26896d3e4b8",
+          "parentUid" : "b7bac6f5a05ee93c5404e57b105ee0a6",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644871410438,
+            "stop" : 1644871417522,
+            "duration" : 7084
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b7bac6f5a05ee93c5404e57b105ee0a6"
+      } ],
+      "uid" : "217844d6c9f3a3aa5b6261c87b25b0f4"
+    }, {
+      "name" : "api.spec.ts",
+      "children" : [ {
+        "name" : "API Testing",
+        "children" : [ {
+          "name" : "POST Request - Create New User",
+          "uid" : "42f442f78e532e2b",
+          "parentUid" : "a25d29a6ab8f928c39dbc282c3d5b76d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644953083734,
+            "stop" : 1644953084296,
+            "duration" : 562
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "POST Request - Login",
+          "uid" : "d5b4c2285d325f8a",
+          "parentUid" : "a25d29a6ab8f928c39dbc282c3d5b76d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644953084294,
+            "stop" : 1644953084692,
+            "duration" : 398
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "POST Request - Login Fail",
+          "uid" : "e5dde2712f31f152",
+          "parentUid" : "a25d29a6ab8f928c39dbc282c3d5b76d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644953084496,
+            "stop" : 1644953085339,
+            "duration" : 843
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "PUT Request - Update User",
+          "uid" : "50fc4421517fbf94",
+          "parentUid" : "a25d29a6ab8f928c39dbc282c3d5b76d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644953084496,
+            "stop" : 1644953085198,
+            "duration" : 702
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "DELETE Request - Delete User",
+          "uid" : "c96fad2946e63315",
+          "parentUid" : "a25d29a6ab8f928c39dbc282c3d5b76d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644953084509,
+            "stop" : 1644953084937,
+            "duration" : 428
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Simple API Test -Assert Response Status",
+          "uid" : "5bd43f9419b3e81c",
+          "parentUid" : "a25d29a6ab8f928c39dbc282c3d5b76d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644953256545,
+            "stop" : 1644953257404,
+            "duration" : 859
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Simple API Test - Assert Invalid Endpoint",
+          "uid" : "3d6f6f5a5cafa6b0",
+          "parentUid" : "a25d29a6ab8f928c39dbc282c3d5b76d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644953256545,
+            "stop" : 1644953257415,
+            "duration" : 870
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "GET Request - Get User Detail",
+          "uid" : "fd25f772f5a4a02c",
+          "parentUid" : "a25d29a6ab8f928c39dbc282c3d5b76d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644953304737,
+            "stop" : 1644953305610,
+            "duration" : 873
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Simple API Test - Assert Response Status",
+          "uid" : "764da23ed3e22845",
+          "parentUid" : "a25d29a6ab8f928c39dbc282c3d5b76d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644954247886,
+            "stop" : 1644954248450,
+            "duration" : 564
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a25d29a6ab8f928c39dbc282c3d5b76d"
+      } ],
+      "uid" : "0d3c5c224273524389bd5b2b5ef6f7e0"
+    } ],
+    "uid" : "358a5ce5f3d3cf5d552cb1aa0863145f"
+  }, {
+    "name" : "Firefox",
+    "children" : [ {
+      "name" : "tests/example.spec.ts",
+      "children" : [ {
+        "name" : "Hooks",
+        "children" : [ {
+          "name" : "Screenshots",
+          "uid" : "f9f810eef50b3dfe",
+          "parentUid" : "e0605614e6130724acd5354c06424924",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644609303776,
+            "stop" : 1644609305944,
+            "duration" : 2168
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Single element Screenshot",
+          "uid" : "ab235982b29f67ec",
+          "parentUid" : "e0605614e6130724acd5354c06424924",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644609305944,
+            "stop" : 1644609306346,
+            "duration" : 402
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e0605614e6130724acd5354c06424924"
+      }, {
+        "name" : "Failing Tests",
+        "children" : [ {
+          "name" : "Screenshots",
+          "uid" : "e6bbd03e24338368",
+          "parentUid" : "8c9df77359853963353bad0c6e8821c8",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644861649471,
+            "stop" : 1644861654799,
+            "duration" : 5328
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Single element Screenshot",
+          "uid" : "c887dcef270a969",
+          "parentUid" : "8c9df77359853963353bad0c6e8821c8",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644861655210,
+            "stop" : 1644861661063,
+            "duration" : 5853
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8c9df77359853963353bad0c6e8821c8"
+      }, {
+        "name" : "Custom Helpers",
+        "uid" : "8d73f6a516f7f427",
+        "parentUid" : "830685ef02d6f801b3678547c9cc572b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644862344134,
+          "stop" : 1644862345112,
+          "duration" : 978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Passing Tests",
+        "children" : [ {
+          "name" : "Screenshots",
+          "uid" : "3286db198c622828",
+          "parentUid" : "9c0e78eee8fe251110b8679e1c28a3f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644863869912,
+            "stop" : 1644863871213,
+            "duration" : 1301
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Single element Screenshot",
+          "uid" : "cedc9593f9acd773",
+          "parentUid" : "9c0e78eee8fe251110b8679e1c28a3f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644863869928,
+            "stop" : 1644863871262,
+            "duration" : 1334
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9c0e78eee8fe251110b8679e1c28a3f0"
+      } ],
+      "uid" : "830685ef02d6f801b3678547c9cc572b"
+    } ],
+    "uid" : "766b375f9458bb5fe1565ec8c36ca147"
+  }, {
+    "name" : "Webkit",
+    "children" : [ {
+      "name" : "tests/example.spec.ts",
+      "children" : [ {
+        "name" : "Hooks",
+        "children" : [ {
+          "name" : "Screenshots",
+          "uid" : "c20ce13dcff0b39b",
+          "parentUid" : "41b25e105995fece2813f00b69ac6c79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644609303780,
+            "stop" : 1644609305062,
+            "duration" : 1282
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Single element Screenshot",
+          "uid" : "1d4a59630652a3da",
+          "parentUid" : "41b25e105995fece2813f00b69ac6c79",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644609305062,
+            "stop" : 1644609305539,
+            "duration" : 477
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "41b25e105995fece2813f00b69ac6c79"
+      }, {
+        "name" : "Failing Tests",
+        "children" : [ {
+          "name" : "Screenshots",
+          "uid" : "d777bba21d790ed3",
+          "parentUid" : "f329e66d80598acc489d7d4be56a4227",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644861648886,
+            "stop" : 1644861654220,
+            "duration" : 5334
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Single element Screenshot",
+          "uid" : "36cc4128b148f956",
+          "parentUid" : "f329e66d80598acc489d7d4be56a4227",
+          "status" : "failed",
+          "time" : {
+            "start" : 1644861654402,
+            "stop" : 1644861659843,
+            "duration" : 5441
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f329e66d80598acc489d7d4be56a4227"
+      }, {
+        "name" : "Custom Helpers",
+        "uid" : "8d46fff0fee2956b",
+        "parentUid" : "805bd0a37a209319b17d481a3d479f9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644862344134,
+          "stop" : 1644862344815,
+          "duration" : 681
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Passing Tests",
+        "children" : [ {
+          "name" : "Screenshots",
+          "uid" : "7c726aa45af53b1",
+          "parentUid" : "a4c7e8766df5a071de373849c019b14e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644955222993,
+            "stop" : 1644955224201,
+            "duration" : 1208
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Single element Screenshot",
+          "uid" : "ce7bac31026db4a4",
+          "parentUid" : "a4c7e8766df5a071de373849c019b14e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644955222997,
+            "stop" : 1644955224111,
+            "duration" : 1114
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a4c7e8766df5a071de373849c019b14e"
+      } ],
+      "uid" : "805bd0a37a209319b17d481a3d479f9a"
+    }, {
+      "name" : "tests/api/api.spec.ts",
+      "children" : [ {
+        "name" : "API Testing",
+        "children" : [ {
+          "name" : "Simple API Test - Assert Response Status",
+          "uid" : "667eb83bc9056a0c",
+          "parentUid" : "e28e6bd92c76ef284147043ffbf411a2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644955222980,
+            "stop" : 1644955223172,
+            "duration" : 192
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e28e6bd92c76ef284147043ffbf411a2"
+      } ],
+      "uid" : "cefba1927d4f451fdaf03a8a8a516c06"
+    }, {
+      "name" : "tests/visual/login-visual.spec.ts",
+      "children" : [ {
+        "name" : "Login Page Visual Test",
+        "children" : [ {
+          "name" : "Login Form",
+          "uid" : "816c6ac5be1e3e75",
+          "parentUid" : "f7f76cdfd705eb15114d2438ad11b656",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644955222980,
+            "stop" : 1644955225217,
+            "duration" : 2237
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f7f76cdfd705eb15114d2438ad11b656"
+      } ],
+      "uid" : "4e26cc4e6f4d4ff0c36347e26afbddef"
+    } ],
+    "uid" : "c2a22ffef1542bf01717fe0a9ad87938"
+  } ],
+  "name" : "suites"
+}

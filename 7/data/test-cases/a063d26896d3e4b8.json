@@ -1,0 +1,311 @@
+{
+  "uid" : "a063d26896d3e4b8",
+  "name" : "Login Form",
+  "fullName" : "Login Form",
+  "historyId" : "Chromium login-visual.spec.ts Login Page Visual Test Login Form",
+  "time" : {
+    "start" : 1644871410438,
+    "stop" : 1644871417522,
+    "duration" : 7084
+  },
+  "status" : "failed",
+  "statusMessage" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+  "statusTrace" : "TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise\n    at Object.writeFileSync (node:fs:2146:5)\n    at compare (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/matchers/golden.js:159:19)\n    at Object.toMatchSnapshot (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/matchers/toMatchSnapshot.js:55:27)\n    at Object.__PWTRAP__[expect.toMatchSnapshot] (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/expect.js:143:30)\n    at __EXTERNAL_MATCHER_TRAP__ (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/expect/build/index.js:386:30)\n    at Object.throwingMatcher (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/expect/build/index.js:387:15)\n    at LoginPage.snapshotLoginForm (/Users/hannah/Desktop/Active Projects/Playwright-Allure/page-objects/LoginPage.ts:38:47)\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/visual/login-visual.spec.ts:18:21\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:529:7\n    at WorkerRunner._runFn (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:575:7)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:523:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+    "statusTrace" : "TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise\n    at Object.writeFileSync (node:fs:2146:5)\n    at compare (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/matchers/golden.js:159:19)\n    at Object.toMatchSnapshot (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/matchers/toMatchSnapshot.js:55:27)\n    at Object.__PWTRAP__[expect.toMatchSnapshot] (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/expect.js:143:30)\n    at __EXTERNAL_MATCHER_TRAP__ (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/expect/build/index.js:386:30)\n    at Object.throwingMatcher (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/expect/build/index.js:387:15)\n    at LoginPage.snapshotLoginForm (/Users/hannah/Desktop/Active Projects/Playwright-Allure/page-objects/LoginPage.ts:38:47)\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/visual/login-visual.spec.ts:18:21\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:529:7\n    at WorkerRunner._runFn (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:575:7)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:523:20)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644871410438,
+        "stop" : 1644871416680,
+        "duration" : 6242
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644871411580,
+          "stop" : 1644871411962,
+          "duration" : 382
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(http://zero.webappsecurity.com/)",
+        "time" : {
+          "start" : 1644871411965,
+          "stop" : 1644871415914,
+          "duration" : 3949
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "locator.click(#signin_button)",
+        "time" : {
+          "start" : 1644871415915,
+          "stop" : 1644871416680,
+          "duration" : 765
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.waitForLoadState",
+      "time" : {
+        "start" : 1644871416681,
+        "stop" : 1644871417191,
+        "duration" : 510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.screenshot(#login_form)",
+      "time" : {
+        "start" : 1644871417196,
+        "stop" : 1644871417318,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toMatchSnapshot",
+      "time" : {
+        "start" : 1644871417198,
+        "stop" : 1644871417201,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644871417202,
+        "stop" : 1644871417522,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644871417204,
+          "stop" : 1644871417521,
+          "duration" : 317
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chromium"
+  }, {
+    "name" : "suite",
+    "value" : "login-visual.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Login Page Visual Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "83b4c5b92cc745e5",
+      "status" : "failed",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+      "time" : {
+        "start" : 1644871394180,
+        "stop" : 1644871400646,
+        "duration" : 6466
+      }
+    }, {
+      "uid" : "df6925a90f2e4010",
+      "status" : "failed",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+      "time" : {
+        "start" : 1644871294909,
+        "stop" : 1644871320542,
+        "duration" : 25633
+      }
+    }, {
+      "uid" : "b3f676e6df6f768e",
+      "status" : "failed",
+      "statusDetails" : "page.waitForTimeout: timeout: expected number, got string",
+      "time" : {
+        "start" : 1644871157458,
+        "stop" : 1644871165234,
+        "duration" : 7776
+      }
+    }, {
+      "uid" : "6cccbeaafbd78caf",
+      "status" : "failed",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+      "time" : {
+        "start" : 1644871058846,
+        "stop" : 1644871077199,
+        "duration" : 18353
+      }
+    }, {
+      "uid" : "63ea2811a361139b",
+      "status" : "failed",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+      "time" : {
+        "start" : 1644871015677,
+        "stop" : 1644871017467,
+        "duration" : 1790
+      }
+    }, {
+      "uid" : "5f703c271d17c3f",
+      "status" : "failed",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+      "time" : {
+        "start" : 1644870973893,
+        "stop" : 1644870974934,
+        "duration" : 1041
+      }
+    }, {
+      "uid" : "30dae6cd292e80b5",
+      "status" : "failed",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+      "time" : {
+        "start" : 1644870891252,
+        "stop" : 1644870892554,
+        "duration" : 1302
+      }
+    }, {
+      "uid" : "269da795cb75d9",
+      "status" : "failed",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+      "time" : {
+        "start" : 1644870852388,
+        "stop" : 1644870854470,
+        "duration" : 2082
+      }
+    }, {
+      "uid" : "92d68c8dfa697b1f",
+      "status" : "failed",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+      "time" : {
+        "start" : 1644870648153,
+        "stop" : 1644870649424,
+        "duration" : 1271
+      }
+    }, {
+      "uid" : "c659d7cd6b206715",
+      "status" : "failed",
+      "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+      "time" : {
+        "start" : 1644870641685,
+        "stop" : 1644870644077,
+        "duration" : 2392
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ea34fb68d24fb362",
+        "reportUrl" : "https://hawenger.github.io/playwright-allure/6//#testresult/ea34fb68d24fb362",
+        "status" : "failed",
+        "statusDetails" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+        "time" : {
+          "start" : 1644871410438,
+          "stop" : 1644871417522,
+          "duration" : 7084
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a063d26896d3e4b8.json",
+  "parameterValues" : [ ]
+}

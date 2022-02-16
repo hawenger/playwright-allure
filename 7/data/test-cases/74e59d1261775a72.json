@@ -1,0 +1,312 @@
+{
+  "uid" : "74e59d1261775a72",
+  "name" : "Reset feedback form",
+  "fullName" : "Reset feedback form",
+  "historyId" : "Chromium e2e-submit-form.spec.ts Feedback Form Reset feedback form",
+  "time" : {
+    "start" : 1644867288773,
+    "stop" : 1644867290111,
+    "duration" : 1338
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644867288773,
+        "stop" : 1644867289950,
+        "duration" : 1177
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644867288905,
+          "stop" : 1644867289056,
+          "duration" : 151
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(http://zero.webappsecurity.com/)",
+        "time" : {
+          "start" : 1644867289057,
+          "stop" : 1644867289803,
+          "duration" : 746
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "locator.click(#feedback)",
+        "time" : {
+          "start" : 1644867289805,
+          "stop" : 1644867289949,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.type(#name, name)",
+      "time" : {
+        "start" : 1644867289952,
+        "stop" : 1644867290037,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#email, email@mail.com)",
+      "time" : {
+        "start" : 1644867290038,
+        "stop" : 1644867290048,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#subject, subject)",
+      "time" : {
+        "start" : 1644867290049,
+        "stop" : 1644867290054,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#comment, my awesome message)",
+      "time" : {
+        "start" : 1644867290055,
+        "stop" : 1644867290065,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(input[name='clear'])",
+      "time" : {
+        "start" : 1644867290066,
+        "stop" : 1644867290102,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeEmpty",
+      "time" : {
+        "start" : 1644867290104,
+        "stop" : 1644867290107,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeEmpty",
+      "time" : {
+        "start" : 1644867290107,
+        "stop" : 1644867290109,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644867290109,
+        "stop" : 1644867290111,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644867290109,
+          "stop" : 1644867290111,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chromium"
+  }, {
+    "name" : "suite",
+    "value" : "e2e-submit-form.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Feedback Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b75ce3d13560ab75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644866165909,
+        "stop" : 1644866167837,
+        "duration" : 1928
+      }
+    }, {
+      "uid" : "573b18c57f6c9408",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644866094894,
+        "stop" : 1644866096926,
+        "duration" : 2032
+      }
+    }, {
+      "uid" : "4a2125c3c4a0c169",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644865957249,
+        "stop" : 1644865961234,
+        "duration" : 3985
+      }
+    }, {
+      "uid" : "21e2185d74ecb577",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644865933957,
+        "stop" : 1644865938004,
+        "duration" : 4047
+      }
+    }, {
+      "uid" : "e3af993aea4b38d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644865822808,
+        "stop" : 1644865826178,
+        "duration" : 3370
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e640fb22dd442196",
+        "reportUrl" : "https://hawenger.github.io/playwright-allure/6//#testresult/e640fb22dd442196",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644867288773,
+          "stop" : 1644867290111,
+          "duration" : 1338
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "74e59d1261775a72.json",
+  "parameterValues" : [ ]
+}

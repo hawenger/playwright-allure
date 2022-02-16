@@ -1,0 +1,281 @@
+{
+  "uid" : "d6fe37c30ee9008",
+  "name" : "Positive Scenario for login + logout",
+  "fullName" : "Positive Scenario for login + logout",
+  "historyId" : "Chromium e2e-login.spec.ts Login / Logout Flow Positive Scenario for login + logout",
+  "time" : {
+    "start" : 1644867284586,
+    "stop" : 1644867291891,
+    "duration" : 7305
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"#account_summary_tab\"\n",
+  "statusTrace" : "\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/e2e/e2e-login.spec.ts:31:37\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:529:7\n    at WorkerRunner._runFn (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:575:7)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:523:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"#account_summary_tab\"\n",
+    "statusTrace" : "\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/tests/e2e/e2e-login.spec.ts:31:37\n    at /Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:529:7\n    at WorkerRunner._runFn (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:575:7)\n    at WorkerRunner._runTestWithBeforeHooks (/Users/hannah/Desktop/Active Projects/Playwright-Allure/node_modules/@playwright/test/lib/workerRunner.js:523:20)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1644867284587,
+        "stop" : 1644867285602,
+        "duration" : 1015
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1644867284591,
+          "stop" : 1644867284639,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(http://zero.webappsecurity.com/)",
+        "time" : {
+          "start" : 1644867284639,
+          "stop" : 1644867285602,
+          "duration" : 963
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.click(#signin_button)",
+      "time" : {
+        "start" : 1644867285602,
+        "stop" : 1644867285982,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_login, username)",
+      "time" : {
+        "start" : 1644867285983,
+        "stop" : 1644867286019,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_password, password)",
+      "time" : {
+        "start" : 1644867286019,
+        "stop" : 1644867286046,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(text=Sign in)",
+      "time" : {
+        "start" : 1644867286046,
+        "stop" : 1644867286881,
+        "duration" : 835
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1644867286881,
+        "stop" : 1644867291885,
+        "duration" : 5004
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1644867291886,
+        "stop" : 1644867291891,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1644867291887,
+          "stop" : 1644867291891,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chromium"
+  }, {
+    "name" : "suite",
+    "value" : "e2e-login.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Login / Logout Flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7d416813fd18a250",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"#account_summary_tab\"\n",
+      "time" : {
+        "start" : 1644867260285,
+        "stop" : 1644867268174,
+        "duration" : 7889
+      }
+    }, {
+      "uid" : "c8027817a6360b02",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"#account_summary_tab\"\n",
+      "time" : {
+        "start" : 1644867193767,
+        "stop" : 1644867202429,
+        "duration" : 8662
+      }
+    }, {
+      "uid" : "caf2aa324e8bab69",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"#account_summary_tab\"\n",
+      "time" : {
+        "start" : 1644867144671,
+        "stop" : 1644867153393,
+        "duration" : 8722
+      }
+    }, {
+      "uid" : "60e3b93881d7eff8",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"#account_summary_tab\"\n",
+      "time" : {
+        "start" : 1644867040056,
+        "stop" : 1644867047434,
+        "duration" : 7378
+      }
+    }, {
+      "uid" : "b83746dff4edbe7e",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"#account_summary_tab\"\n",
+      "time" : {
+        "start" : 1644866989823,
+        "stop" : 1644866997037,
+        "duration" : 7214
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c0c4112fdbaf5c19",
+        "reportUrl" : "https://hawenger.github.io/playwright-allure/6//#testresult/c0c4112fdbaf5c19",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"#account_summary_tab\"\n",
+        "time" : {
+          "start" : 1644867284586,
+          "stop" : 1644867291891,
+          "duration" : 7305
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d6fe37c30ee9008.json",
+  "parameterValues" : [ ]
+}

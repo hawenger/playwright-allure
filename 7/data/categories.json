@@ -1,0 +1,313 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toContainText(expected)\n\nExpected string: \"Fun Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "children" : [ {
+        "name" : "Screenshots",
+        "uid" : "d777bba21d790ed3",
+        "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644861648886,
+          "stop" : 1644861654220,
+          "duration" : 5334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Screenshots",
+        "uid" : "389841703aecd1ee",
+        "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644861649292,
+          "stop" : 1644861654617,
+          "duration" : 5325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Screenshots",
+        "uid" : "e6bbd03e24338368",
+        "parentUid" : "d86473ceed24569106440f2a12d0ab7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644861649471,
+          "stop" : 1644861654799,
+          "duration" : 5328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d86473ceed24569106440f2a12d0ab7a"
+    }, {
+      "name" : "expect(received).toContainText(expected)\n\nExpected string: \"Random Text\"\nReceived string: \"Example Domain\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"h1\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n  -   selector resolved to <h1>Example Domain</h1>\n  -   unexpected value \"Example Domain\"\n",
+      "children" : [ {
+        "name" : "Single element Screenshot",
+        "uid" : "36cc4128b148f956",
+        "parentUid" : "de3c917b062d1dd82588d4f8aa9a1049",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644861654402,
+          "stop" : 1644861659843,
+          "duration" : 5441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Single element Screenshot",
+        "uid" : "bb4ad2658a7e6bf5",
+        "parentUid" : "de3c917b062d1dd82588d4f8aa9a1049",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644861654792,
+          "stop" : 1644861660320,
+          "duration" : 5528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Single element Screenshot",
+        "uid" : "c887dcef270a969",
+        "parentUid" : "de3c917b062d1dd82588d4f8aa9a1049",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644861655210,
+          "stop" : 1644861661063,
+          "duration" : 5853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de3c917b062d1dd82588d4f8aa9a1049"
+    }, {
+      "name" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"#account_summary_tab\"\n",
+      "children" : [ {
+        "name" : "Positive Login Scenario + Logout",
+        "uid" : "9bb9914c2148e709",
+        "parentUid" : "32d0aee612db542e0a0bae0bef229504",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644865646024,
+          "stop" : 1644865653187,
+          "duration" : 7163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Positive Scenario for login + logout",
+        "uid" : "d6fe37c30ee9008",
+        "parentUid" : "32d0aee612db542e0a0bae0bef229504",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644867284586,
+          "stop" : 1644867291891,
+          "duration" : 7305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "32d0aee612db542e0a0bae0bef229504"
+    }, {
+      "name" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#pay_bills_tab\"\n============================================================",
+      "children" : [ {
+        "name" : "Should make currency exchange",
+        "uid" : "9d5a0b3010e49bc5",
+        "parentUid" : "718826fedc7fbdfef7bd313c353abfd1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644867277929,
+          "stop" : 1644867288566,
+          "duration" : 10637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "718826fedc7fbdfef7bd313c353abfd1"
+    }, {
+      "name" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#account_activity_tab\"\n============================================================",
+      "children" : [ {
+        "name" : "Verify the results for each account",
+        "uid" : "bb04244ccb360413",
+        "parentUid" : "1b3d525b69f704d25d96b814ab3d32f0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644867277934,
+          "stop" : 1644867288566,
+          "duration" : 10632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b3d525b69f704d25d96b814ab3d32f0"
+    }, {
+      "name" : "locator.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#pay_bills_tab\"\n============================================================",
+      "children" : [ {
+        "name" : "Should send new payment",
+        "uid" : "dac32364682cc0c9",
+        "parentUid" : "618a97b7d13f1eba93c1d9b25c1cd6a0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644867277936,
+          "stop" : 1644867288572,
+          "duration" : 10636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "618a97b7d13f1eba93c1d9b25c1cd6a0"
+    }, {
+      "name" : "page.click: Timeout 10000ms exceeded.\n=========================== logs ===========================\nwaiting for selector \"#transfer_funds_tab\"\n============================================================",
+      "children" : [ {
+        "name" : "Transfer funds",
+        "uid" : "4bb3a38f3a0b7fab",
+        "parentUid" : "4e31f60798024121d59313368cf76394",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644867288778,
+          "stop" : 1644867299080,
+          "duration" : 10302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e31f60798024121d59313368cf76394"
+    }, {
+      "name" : "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Promise",
+      "children" : [ {
+        "name" : "Login Form",
+        "uid" : "a063d26896d3e4b8",
+        "parentUid" : "12d9cad946e7bcd633a40c8c505e9699",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644871410438,
+          "stop" : 1644871417522,
+          "duration" : 7084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12d9cad946e7bcd633a40c8c505e9699"
+    }, {
+      "name" : "Unexpected token < in JSON at position 0",
+      "children" : [ {
+        "name" : "POST Request - Create New User",
+        "uid" : "42f442f78e532e2b",
+        "parentUid" : "9ba418a60f946a693e6c6322953469a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644953083734,
+          "stop" : 1644953084296,
+          "duration" : 562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "POST Request - Login",
+        "uid" : "d5b4c2285d325f8a",
+        "parentUid" : "9ba418a60f946a693e6c6322953469a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644953084294,
+          "stop" : 1644953084692,
+          "duration" : 398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "POST Request - Login Fail",
+        "uid" : "e5dde2712f31f152",
+        "parentUid" : "9ba418a60f946a693e6c6322953469a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644953084496,
+          "stop" : 1644953085339,
+          "duration" : 843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PUT Request - Update User",
+        "uid" : "50fc4421517fbf94",
+        "parentUid" : "9ba418a60f946a693e6c6322953469a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644953084496,
+          "stop" : 1644953085198,
+          "duration" : 702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET Request - Get User Detail",
+        "uid" : "fd25f772f5a4a02c",
+        "parentUid" : "9ba418a60f946a693e6c6322953469a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644953304737,
+          "stop" : 1644953305610,
+          "duration" : 873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ba418a60f946a693e6c6322953469a3"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: 204\nReceived: 403",
+      "children" : [ {
+        "name" : "DELETE Request - Delete User",
+        "uid" : "c96fad2946e63315",
+        "parentUid" : "1d46a15b7b4986d2bba3638c046a07bc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644953084509,
+          "stop" : 1644953084937,
+          "duration" : 428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d46a15b7b4986d2bba3638c046a07bc"
+    }, {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: 404\nReceived: 200",
+      "children" : [ {
+        "name" : "Simple API Test - Assert Invalid Endpoint",
+        "uid" : "3d6f6f5a5cafa6b0",
+        "parentUid" : "716d82aad5024304c19c0ebd73d8f577",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644953256545,
+          "stop" : 1644953257415,
+          "duration" : 870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "716d82aad5024304c19c0ebd73d8f577"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

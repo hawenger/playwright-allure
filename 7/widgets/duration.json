@@ -1,0 +1,461 @@
+[ {
+  "uid" : "1456fa2542c801",
+  "name" : "Should find search results",
+  "time" : {
+    "start" : 1644867288771,
+    "stop" : 1644867289972,
+    "duration" : 1201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "389841703aecd1ee",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644861649292,
+    "stop" : 1644861654617,
+    "duration" : 5325
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c20ce13dcff0b39b",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644609303780,
+    "stop" : 1644609305062,
+    "duration" : 1282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cedc9593f9acd773",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644863869928,
+    "stop" : 1644863871262,
+    "duration" : 1334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bb3a38f3a0b7fab",
+  "name" : "Transfer funds",
+  "time" : {
+    "start" : 1644867288778,
+    "stop" : 1644867299080,
+    "duration" : 10302
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb04244ccb360413",
+  "name" : "Verify the results for each account",
+  "time" : {
+    "start" : 1644867277934,
+    "stop" : 1644867288566,
+    "duration" : 10632
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "42f442f78e532e2b",
+  "name" : "POST Request - Create New User",
+  "time" : {
+    "start" : 1644953083734,
+    "stop" : 1644953084296,
+    "duration" : 562
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6bbd03e24338368",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644861649471,
+    "stop" : 1644861654799,
+    "duration" : 5328
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "36cc4128b148f956",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644861654402,
+    "stop" : 1644861659843,
+    "duration" : 5441
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce7bac31026db4a4",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644955222997,
+    "stop" : 1644955224111,
+    "duration" : 1114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1084500a7d2733f",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644863869915,
+    "stop" : 1644863870995,
+    "duration" : 1080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d4a59630652a3da",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644609305062,
+    "stop" : 1644609305539,
+    "duration" : 477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2047623c58326005",
+  "name" : "Custom Helpers",
+  "time" : {
+    "start" : 1644863382262,
+    "stop" : 1644863396639,
+    "duration" : 14377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "667eb83bc9056a0c",
+  "name" : "Simple API Test - Assert Response Status",
+  "time" : {
+    "start" : 1644955222980,
+    "stop" : 1644955223172,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "816c6ac5be1e3e75",
+  "name" : "Login Form",
+  "time" : {
+    "start" : 1644955222980,
+    "stop" : 1644955225217,
+    "duration" : 2237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9f810eef50b3dfe",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644609303776,
+    "stop" : 1644609305944,
+    "duration" : 2168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "468c48de535180d5",
+  "name" : "Negative Login Scenario",
+  "time" : {
+    "start" : 1644865646024,
+    "stop" : 1644865648216,
+    "duration" : 2192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d777bba21d790ed3",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644861648886,
+    "stop" : 1644861654220,
+    "duration" : 5334
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb4ad2658a7e6bf5",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644861654792,
+    "stop" : 1644861660320,
+    "duration" : 5528
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bb9914c2148e709",
+  "name" : "Positive Login Scenario + Logout",
+  "time" : {
+    "start" : 1644865646024,
+    "stop" : 1644865653187,
+    "duration" : 7163
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae8bd45b013156a5",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644609303770,
+    "stop" : 1644609305563,
+    "duration" : 1793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5b4c2285d325f8a",
+  "name" : "POST Request - Login",
+  "time" : {
+    "start" : 1644953084294,
+    "stop" : 1644953084692,
+    "duration" : 398
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c9a01a6922cfeac",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644609305563,
+    "stop" : 1644609305896,
+    "duration" : 333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5dde2712f31f152",
+  "name" : "POST Request - Login Fail",
+  "time" : {
+    "start" : 1644953084496,
+    "stop" : 1644953085339,
+    "duration" : 843
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c96fad2946e63315",
+  "name" : "DELETE Request - Delete User",
+  "time" : {
+    "start" : 1644953084509,
+    "stop" : 1644953084937,
+    "duration" : 428
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c726aa45af53b1",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644955222993,
+    "stop" : 1644955224201,
+    "duration" : 1208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5e0f45456bed5dc",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644863869912,
+    "stop" : 1644863870981,
+    "duration" : 1069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6a50f2e082432cd",
+  "name" : "Submit feedback form",
+  "time" : {
+    "start" : 1644867290112,
+    "stop" : 1644867291159,
+    "duration" : 1047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd25f772f5a4a02c",
+  "name" : "GET Request - Get User Detail",
+  "time" : {
+    "start" : 1644953304737,
+    "stop" : 1644953305610,
+    "duration" : 873
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6fe37c30ee9008",
+  "name" : "Positive Scenario for login + logout",
+  "time" : {
+    "start" : 1644867284586,
+    "stop" : 1644867291891,
+    "duration" : 7305
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d5a0b3010e49bc5",
+  "name" : "Should make currency exchange",
+  "time" : {
+    "start" : 1644867277929,
+    "stop" : 1644867288566,
+    "duration" : 10637
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f4f1a988ac88802",
+  "name" : "Full Page Snapshot",
+  "time" : {
+    "start" : 1644870248892,
+    "stop" : 1644870254886,
+    "duration" : 5994
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d46fff0fee2956b",
+  "name" : "Custom Helpers",
+  "time" : {
+    "start" : 1644862344134,
+    "stop" : 1644862344815,
+    "duration" : 681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d73f6a516f7f427",
+  "name" : "Custom Helpers",
+  "time" : {
+    "start" : 1644862344134,
+    "stop" : 1644862345112,
+    "duration" : 978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "764da23ed3e22845",
+  "name" : "Simple API Test - Assert Response Status",
+  "time" : {
+    "start" : 1644954247886,
+    "stop" : 1644954248450,
+    "duration" : 564
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a063d26896d3e4b8",
+  "name" : "Login Form",
+  "time" : {
+    "start" : 1644871410438,
+    "stop" : 1644871417522,
+    "duration" : 7084
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "be5df0794cb9118f",
+  "name" : "Single Element Snapshot",
+  "time" : {
+    "start" : 1644870254888,
+    "stop" : 1644870255326,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bd43f9419b3e81c",
+  "name" : "Simple API Test -Assert Response Status",
+  "time" : {
+    "start" : 1644953256545,
+    "stop" : 1644953257404,
+    "duration" : 859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3286db198c622828",
+  "name" : "Screenshots",
+  "time" : {
+    "start" : 1644863869912,
+    "stop" : 1644863871213,
+    "duration" : 1301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74e59d1261775a72",
+  "name" : "Reset feedback form",
+  "time" : {
+    "start" : 1644867288773,
+    "stop" : 1644867290111,
+    "duration" : 1338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab235982b29f67ec",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644609305944,
+    "stop" : 1644609306346,
+    "duration" : 402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d6e06dda994072",
+  "name" : "Negative Scenario for login",
+  "time" : {
+    "start" : 1644867277932,
+    "stop" : 1644867284586,
+    "duration" : 6654
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d6f6f5a5cafa6b0",
+  "name" : "Simple API Test - Assert Invalid Endpoint",
+  "time" : {
+    "start" : 1644953256545,
+    "stop" : 1644953257415,
+    "duration" : 870
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "50fc4421517fbf94",
+  "name" : "PUT Request - Update User",
+  "time" : {
+    "start" : 1644953084496,
+    "stop" : 1644953085198,
+    "duration" : 702
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c887dcef270a969",
+  "name" : "Single element Screenshot",
+  "time" : {
+    "start" : 1644861655210,
+    "stop" : 1644861661063,
+    "duration" : 5853
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dac32364682cc0c9",
+  "name" : "Should send new payment",
+  "time" : {
+    "start" : 1644867277936,
+    "stop" : 1644867288572,
+    "duration" : 10636
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
