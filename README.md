@@ -45,3 +45,9 @@ add _await page.pause()_ to test and run in headed mode to open inspector
 Command Line
 
 - npx playwright test --debug
+
+### Jenkins Setup
+
+Command Line
+
+_java -jar jenkins.war --httpPort=8080 --enable-future-java_
